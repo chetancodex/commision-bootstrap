@@ -1,0 +1,93 @@
+.containerr{
+  background-image: url("../../assets/bg2.jpg");
+  height: 1000px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  font-size: 2rem;
+  color: white;
+
+}
+.about{
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 320px;
+}
+.pre-title{
+  color: rgb(156, 196, 48);
+  font-size: 2rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.title{
+  color: rgb(255, 255, 255);
+  font-size: 4.8rem;
+  margin: 8px 0px 5px;
+  line-height: 1;
+font-weight: bold;
+
+}
+.description
+{
+  color: #656565;
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 3.5rem;
+  letter-spacing: 2px;
+}
+span
+{
+  color: white;
+  letter-spacing: 2px;
+}
+@media screen and (max-width:1000px) {
+ .containerr{
+   width: 100%;
+   height: auto;
+ }
+ .about{
+   width: 70%;
+   margin: 0 auto;
+   padding-top: 200px;
+   padding-bottom: 50px;
+ }
+ .title{
+   padding-top: 2rem;
+ }
+ .description{
+   width:50%;
+
+   padding-top: 2rem;
+
+}
+}
+@media screen and (max-width:500px){
+.containerr{
+  width: 100%;
+  height: auto;
+
+
+}
+.about{
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 100px;
+
+}
+.pre-title{
+  font-size: 1rem;
+}
+.title{
+  font-size: 2.5rem;
+  margin: 12px 0px 15px;
+}
+.description{
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  width: 60%;
+}
+span{
+  letter-spacing: 1px;
+}
+}

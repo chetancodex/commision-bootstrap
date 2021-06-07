@@ -1,0 +1,16 @@
+<div class="main-container">
+  <div class="containerr">
+    <div class="title">{{data.title}}</div>
+    <div class="sub-title">
+      {{data.subTitle}}</div>
+      <div class="description">
+        {{data.description}}</div>
+        <div class="wrapper">
+          <div class="box" *ngFor = "let items of data.aboutNumber">
+            <div class="about">{{items.about}}</div>
+            <div class="number">{{items.number}}</div>
+          </div>
+        </div>
+  </div>
+</div>
+

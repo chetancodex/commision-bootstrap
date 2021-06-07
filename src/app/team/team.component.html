@@ -1,0 +1,12 @@
+<div class="main-container">
+  <div class="team">{{data.team}}</div>
+  <div class="container">
+    <div class="wrapper" *ngFor = "let items of data.teamImg">
+      <img [src]=items.image alt="">
+      <div class="about">
+        <div class="name">{{items.name}}</div>
+        <div class="position">{{items.position}}</div>
+      </div>
+    </div>
+  </div>
+</div>

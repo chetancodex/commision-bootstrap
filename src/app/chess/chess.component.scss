@@ -23,8 +23,8 @@
 }
 }
 .pre-title{
-  // color: var(--light-green);
-  color: #9cc430;
+  color: var(--light-green);
+  // color: #9cc430;
 
   font-size: 2rem;
 }
@@ -34,14 +34,14 @@
   line-height: 1.1;
   color: var(--white);
   span{
-    // color:var(--light-green);
-  color: #9cc430;
+    color:var(--light-green);
+  // color: #9cc430;
 
   }
 }
 .description{
-  // color: var(--white);
-  color: #ffffff;
+  color: var(--white);
+  // color: #ffffff;
   font-size: 2rem;
   padding: 2.5rem 0;
 }
@@ -61,8 +61,8 @@ ul{
   padding: 1rem 0 2rem 0;
 }
 .black{
-  // color: var(--white);
-  color:#ffffff;
+  color: var(--white);
+  // color:#ffffff;
 }
 .img
 {
@@ -125,6 +125,11 @@ img{
   font-size: 1.6rem;
 }
 ul li{
+  display: none;
+}
+}
+@media screen and (max-width:400px){
+.img{
   display: none;
 }
 }
