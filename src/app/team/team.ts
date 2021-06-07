@@ -1,6 +1,6 @@
 export const teamAbout={
 
-  team : "Team",
+  team : "Team.",
 
 teamImg: [
 

@@ -4,7 +4,7 @@
   background-size: cover;
   height: 1000px;
   width: 100%;
-  color: black;
+  color: var(--header-primary);
   }
   .container{
     display: flex;
@@ -24,7 +24,7 @@
   }
   .wrapper{
     padding: 0.9rem 2.2rem;
-    color: black;
+    color:var(--header-primary);
   }
   img{
 
@@ -32,7 +32,7 @@
 
   }
   img:hover{
-    background:white;
+    background:var(--chess-secondary);
     border-radius: 6px;
   }
   @media screen and (max-width:1000px){

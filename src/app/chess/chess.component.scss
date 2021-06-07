@@ -17,13 +17,13 @@
   padding-top: 300px;
 }
 .grey li{
-  color: var(--light-green);
+  color: var(--chess-primary);
   // color: #9cc430;
   display: flex;
 }
 }
 .pre-title{
-  color: var(--light-green);
+  color: var(--chess-primary);
   // color: #9cc430;
 
   font-size: 2rem;
@@ -32,15 +32,15 @@
   font-size:7rem;
   font-weight: bold;
   line-height: 1.1;
-  color: var(--white);
+  color: var(--chess-secondary);
   span{
-    color:var(--light-green);
+    color:var(--chess-primary);
   // color: #9cc430;
 
   }
 }
 .description{
-  color: var(--white);
+  color: var(--chess-secondary);
   // color: #ffffff;
   font-size: 2rem;
   padding: 2.5rem 0;
@@ -61,7 +61,7 @@ ul{
   padding: 1rem 0 2rem 0;
 }
 .black{
-  color: var(--white);
+  color: var(--chess-secondary);
   // color:#ffffff;
 }
 .img
