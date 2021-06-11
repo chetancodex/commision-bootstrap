@@ -1,0 +1,36 @@
+.last-img
+{
+  position: relative;
+  overflow: hidden;
+
+}
+.hand{
+  position: absolute;
+  bottom: auto;
+  top: 0%;
+  right: auto;
+  left: 11%;
+  -webkit-animation: mover 1s infinite alternate;
+  animation: mover 1s infinite alternate;
+  width: 40.5%;
+}
+@keyframes mover{
+  0% {
+    transform: translateY(0);
+}
+100% {
+    transform: translateY(-10px);
+}
+}
+.previous-next{
+margin: 150px 0 250px;
+}
+
+.previous-next a{
+ font-size: 100px;
+ text-decoration: none;
+ font-weight: bold;
+ color: var(--primary);
+ display: block;
+ text-align: center;
+}

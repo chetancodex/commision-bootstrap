@@ -6,7 +6,7 @@
   width: 100%;
   color: var(--header-primary);
   }
-  .container{
+  .containerr{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,7 +45,7 @@
       text-align: left;
       padding: 12rem 0 0 5rem;
     }
-    .container{
+    .containerr{
       width: 95%;
       margin: 0 auto;
       padding-top: 100px;
@@ -66,6 +66,9 @@
   @media screen and (max-width:500px){
   h3{
     font-size: 2.4rem;
+  }
+  .containerr{
+    padding-top: 30px;
   }
   }
 

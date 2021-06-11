@@ -46,7 +46,7 @@
   padding: 2.5rem 0;
 }
 ul{
-  max-width: 250px;
+  max-width: 270px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -124,8 +124,19 @@ img{
 .info .description{
   font-size: 1.6rem;
 }
-ul li{
-  display: none;
+// ul li{
+//   display: none;
+// }
+.description{
+
+font-size: 1.3rem;
+  padding: 1rem 0;
+}
+.grey{
+  padding: 0px ;
+}
+ul li {
+  font-size: 1.5rem;
 }
 }
 @media screen and (max-width:400px){
@@ -133,3 +144,5 @@ ul li{
   display: none;
 }
 }
+
+

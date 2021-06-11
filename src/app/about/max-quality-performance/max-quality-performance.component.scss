@@ -1,0 +1,45 @@
+.container{
+ padding: 80px 0 110px;
+}
+
+.heading{
+  font-size: 71px;
+color: var(--about-black);
+font-weight: bold;
+line-height: 1.1;
+}
+.description{
+  font-size: 20px;
+  margin: 25px 0 0;
+  color: var(--about-black);
+  display: inline-block;
+  background:var(--about-bg-color);
+}
+@media screen and (max-width:1000px){
+  .heading{
+    font-size: 50px;
+  }
+  .description{
+    font-size: 16px;
+  }
+}
+@media screen and (max-width:772px){
+  .heading{
+    font-size: 36px;
+  }
+  .description{
+    font-size: 20px;
+    line-height: 1.4;
+    background:none;
+  }
+  .container{
+    width: 95%;
+    padding: 40px 0 50px;
+  }
+}
+@media screen and (max-width:428px){
+  .heading{
+    font-size:31px;
+
+  }
+}

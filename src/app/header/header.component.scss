@@ -11,6 +11,7 @@
 .left-col {
   font-size: 2rem;
   font-weight: bold;
+  color: var(--header-primary);
     position: fixed;
     z-index: 99;
     left: 40px;
@@ -80,6 +81,9 @@ font-weight: bold;
 //   align-items: center;
 
 // }
+.color-white a, .color-white li a, .color-white .left-col {
+  color:var(--chess-secondary);
+}
 
 @media screen and (max-width: 1560px)
 {

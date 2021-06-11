@@ -9,6 +9,8 @@ export const object ={
   adversign: "advertiser signup",
   affsign: "affiliate signup ",
   m : "m:",
-  hello: "hellos@vcommision.com"
+  hello: "hellos@vcommision.com",
+  img1:"assets/logo.png",
+  img2: "assets/about-logo-white.png"
 
 }

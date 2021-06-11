@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { object } from './header';
 
 @Component({
@@ -7,7 +7,10 @@ import { object } from './header';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-data=object
+data=object;
+@Input()
+isColorChanged = false;
+
   constructor() { }
 
   ngOnInit(): void {
