@@ -1,3 +1,5 @@
+
+import { OurVisionPageModule } from './page/our-vision-page/our-vision-page.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
@@ -5,11 +7,19 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AboutPageModule } from './page/about-page/about-page.module';
 import { HomePageModule } from './page/home-page/home-page.module';
+import { LogInModule } from './button/log-in/log-in.module';
+
+
+
+
 
 
 @NgModule({
   declarations: [
     AppComponent
+
+
+
 
   ],
   imports: [
@@ -17,7 +27,10 @@ import { HomePageModule } from './page/home-page/home-page.module';
     AppRoutingModule,
     NgbModule,
     HomePageModule,
-    AboutPageModule
+    AboutPageModule,
+    OurVisionPageModule,
+    LogInModule
+
 
   ],
   providers: [],

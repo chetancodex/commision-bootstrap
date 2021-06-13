@@ -10,6 +10,17 @@ export class HeaderComponent implements OnInit {
 data=object;
 @Input()
 isColorChanged = false;
+@Input()
+isPositionRelative = false;
+@Input()
+isPositionAbsolute = false;
+@Input()
+isDisplayNone = false;
+@Input()
+isHeightFullVH = false;
+// isRightcolAbsolute = false;
+// isLeftcolAbsolute = false;
+// isrowAbsolute = false;
 
   constructor() { }
 

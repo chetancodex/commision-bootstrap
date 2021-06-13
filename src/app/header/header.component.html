@@ -1,26 +1,29 @@
+<div class="header" [ngClass]="{'position-relative':isPositionRelative}">
+  <button class="btn btn-primary" [routerLink]="['/about']">about</button>
+  <button class="btn btn-primary" [routerLink]="['/ourvision']">our vision</button>
 
-<div class="logo">
-  <img *ngIf='!isColorChanged' [src]="data.img1" alt="">
-  <img *ngIf='isColorChanged' [src]="data.img2" alt="">
-</div>
-<div class="col" [ngClass]="{'color-white':isColorChanged}">
+  <div class="logo" [ngClass]="{'logo-absolute':isPositionAbsolute}">
+    <a href="" [routerLink]="['/']"><img *ngIf='!isColorChanged' [src]="data.img1" alt=""></a>
+    <a href="" [routerLink]="['/']"><img *ngIf='isColorChanged' [src]="data.img2" alt="" ></a>
+  </div>
+  <div class="col" [ngClass]="{'color-white':isColorChanged, 'display-none': isDisplayNone, 'height-full': isHeightFullVH}">
 
-  <div class="left-col">{{data.leftcol}}</div>
-  <ul class="right-col d-flex">
-    <li> <a href="">{{data.fb}}</a> </li>
-    <li> <a href="">{{data.insta}}</a></li>
-    <li> <a href="">{{data.twiter}}</a></li>
-    <li> <a href="">{{data.linkdin}}</a></li>
-    <li><a href="">{{data.ytube}}</a></li>
-   </ul>
-   <div class="row d-flex justify-content-between">
-     <ul class="bottom-col d-flex justify-content-between align-items-center">
-       <li><a href="">{{data.login}}</a></li>
-       <li><a href="">{{data.adversign}}</a></li>
-       <li><a href="">{{data.affsign}}</a></li>
-     </ul>
-     <div><strong>{{data.m}}</strong>
-       <a href="">{{data.hello}}</a></div>
-     </div>
-   </div>
-
+    <div class="left-col" [ngClass]="{'leftcol-Absolute':isPositionAbsolute}">{{data.leftcol}}</div>
+    <ul class="right-col d-flex" [ngClass]="{'rightcol-Absolute':isPositionAbsolute}">
+      <li><a href="">{{data.fb}}</a></li>
+      <li><a href="">{{data.insta}}</a></li>
+      <li><a href="">{{data.twiter}}</a></li>
+      <li><a href="">{{data.linkdin}}</a></li>
+      <li><a href="">{{data.ytube}}</a></li>
+    </ul>
+    <div class="row d-flex justify-content-between" [ngClass]="{'row-Absolute':isPositionAbsolute}">
+      <ul class="bottom-col d-flex justify-content-between align-items-center">
+        <li><a href="">{{data.login}}</a></li>
+        <li><a href="">{{data.adversign}}</a></li>
+        <li><a href="">{{data.affsign}}</a></li>
+      </ul>
+      <div><strong>{{data.m}}</strong>
+        <a href="">{{data.hello}}</a></div>
+      </div>
+    </div>
+  </div>

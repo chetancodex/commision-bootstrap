@@ -1,0 +1,23 @@
+.main-container{
+  background:#f7f7f7;
+  padding: 80px 0 80px;
+}
+
+
+.info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading{
+  font-size: 70px;
+  line-height: normal;
+  color:var(--about-black);
+  margin: 0 0 35px;
+}
+.title{
+  color: var(--primary);
+    font-size: 27px;
+    margin: 0 0 10px;
+    text-transform: uppercase
+}

@@ -84,6 +84,56 @@ font-weight: bold;
 .color-white a, .color-white li a, .color-white .left-col {
   color:var(--chess-secondary);
 }
+.position-relative{
+  position: relative;
+
+}
+.logo-absolute{
+
+  position: absolute;
+  left: 19%;
+  top: 2%;
+}
+.rightcol-Absolute{
+
+  position: absolute;
+  z-index: 99;
+  right: -450px;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(
+90deg
+);
+}
+.leftcol-Absolute{
+  
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--header-primary);
+    position: absolute;
+    z-index: 99;
+    left: 40px;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(
+-90deg
+);
+}
+.row-Absolute{
+  position: absolute;
+  z-index: 99;
+  right: 160px;
+  bottom: 40px;
+  width: 100%;
+  max-width: 1400px;
+  font-size: 2.3rem;
+}
+.display-none{
+  display: none;
+}
+.height-full{
+height: 100vh;
+
+}
+
 
 @media screen and (max-width: 1560px)
 {

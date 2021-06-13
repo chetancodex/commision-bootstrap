@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { horseImg } from 'src/app/about/horse-img/horse';
 
 @Component({
   selector: 'app-about-page',
@@ -7,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutPageComponent implements OnInit {
 
+  horseImgData = horseImg;
   constructor() { }
 
   ngOnInit(): void {

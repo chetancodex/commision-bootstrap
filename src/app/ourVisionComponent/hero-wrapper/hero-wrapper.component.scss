@@ -1,0 +1,27 @@
+.container{
+  padding: 100px 0;
+}
+
+
+.info{
+  font-size: 22px;
+  color: var(--about-black);
+  font-weight: bold;
+  margin: 25px 0 0;
+}
+.wrapper-img img{
+  width: 100%;
+}
+
+@media screen and (max-width:600px){
+  .info{
+    width: 90%;
+    margin: 0 auto;
+    font-weight: normal;
+    font-size: 18px;
+  }
+  .container{
+    padding: 50px 0;
+  }
+}
+

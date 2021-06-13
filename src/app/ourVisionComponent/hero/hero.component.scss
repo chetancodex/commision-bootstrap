@@ -1,0 +1,84 @@
+.main-container{
+  background: url(../../../assets/vision_bg.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+
+}
+.mans-img img{
+  width: 100%;
+}
+.mans-img{
+  position: absolute;
+  right: 0;
+  bottom: -30px;
+  animation: mover 1.9s infinite alternate;
+  overflow: hidden;
+}
+@keyframes mover{
+  0% {
+    transform: translateY(0);
+}
+100% {
+    transform: translateY(-10px);
+}
+}
+.container{
+  margin-top: 250px;
+
+
+}
+.title{
+  color: var(--primary);
+    font-size: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+}
+.description{
+  color:var(--chess-secondary);
+  font-size: 70px;
+  font-weight: bold;
+  line-height: 1.1;
+  margin: 0px 0 7px;
+}
+.description span{
+    display: inline-block;
+    margin: 0;
+    font-weight: bold;
+    font-size: 70px;
+    background: linear-gradient(to right, var(--primary) 50%, var(--about-hero) 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+@media screen and (max-width:1000px){
+  .container{
+    margin-top: 100px;
+  }
+}
+@media screen and (max-width:536px){
+  .mans-img{
+    display: none;
+  }
+  .container{
+    margin-bottom: 100px;
+  }
+  .main-container{
+height: auto;
+  }
+  .title{
+    font-size: 17px;
+  }
+  .description{
+    font-size: 40px;
+  }
+  .description span{
+    font-size: 40px;
+  }
+
+}
