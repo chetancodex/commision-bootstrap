@@ -2,11 +2,22 @@
   <button class="btn btn-primary" [routerLink]="['/about']">about</button>
   <button class="btn btn-primary" [routerLink]="['/ourvision']">our vision</button>
 
+  <div class="box" >
+    <label for="check" class="hamburger" >
+      <input type="checkbox" id="check"/>
+      <span [ngClass]="{'hamburger-color': isHamburgerColorWhite}"></span>
+      <span [ngClass]="{'hamburger-color': isHamburgerColorWhite}"></span>
+      <span [ngClass]="{'hamburger-color': isHamburgerColorWhite}"></span>
+    </label>
+  </div>
+
+
   <div class="logo" [ngClass]="{'logo-absolute':isPositionAbsolute}">
     <a href="" [routerLink]="['/']"><img *ngIf='!isColorChanged' [src]="data.img1" alt=""></a>
     <a href="" [routerLink]="['/']"><img *ngIf='isColorChanged' [src]="data.img2" alt="" ></a>
   </div>
-  <div class="col" [ngClass]="{'color-white':isColorChanged, 'display-none': isDisplayNone, 'height-full': isHeightFullVH}">
+  <div class="col" [ngClass]="{'color-white':isColorChanged, 'display-none': isDisplayNone, 'height-full':
+   isHeightFullVH}">
 
     <div class="left-col" [ngClass]="{'leftcol-Absolute':isPositionAbsolute}">{{data.leftcol}}</div>
     <ul class="right-col d-flex" [ngClass]="{'rightcol-Absolute':isPositionAbsolute}">

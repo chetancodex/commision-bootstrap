@@ -18,6 +18,8 @@ isPositionAbsolute = false;
 isDisplayNone = false;
 @Input()
 isHeightFullVH = false;
+@Input()
+isHamburgerColorWhite =false;
 // isRightcolAbsolute = false;
 // isLeftcolAbsolute = false;
 // isrowAbsolute = false;
@@ -26,5 +28,6 @@ isHeightFullVH = false;
 
   ngOnInit(): void {
   }
+
 
 }

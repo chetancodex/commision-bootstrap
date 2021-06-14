@@ -7,7 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AboutPageModule } from './page/about-page/about-page.module';
 import { HomePageModule } from './page/home-page/home-page.module';
-import { LogInModule } from './button/log-in/log-in.module';
+
 
 
 
@@ -16,7 +16,8 @@ import { LogInModule } from './button/log-in/log-in.module';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+
 
 
 
@@ -29,7 +30,7 @@ import { LogInModule } from './button/log-in/log-in.module';
     HomePageModule,
     AboutPageModule,
     OurVisionPageModule,
-    LogInModule
+
 
 
   ],
