@@ -12,6 +12,7 @@ import { ContactModule } from 'src/app/contact/contact.module';
 
 
 
+
 @NgModule({
   declarations: [HomePageComponent],
   imports: [
@@ -23,7 +24,8 @@ import { ContactModule } from 'src/app/contact/contact.module';
     PerformanceModule,
     TeamModule,
     AdvertisersModule,
-    ContactModule
+    ContactModule,
+    
 
   ],
   exports:[HomePageComponent]

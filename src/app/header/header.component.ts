@@ -20,6 +20,8 @@ isDisplayNone = false;
 isHeightFullVH = false;
 @Input()
 isHamburgerColorWhite =false;
+@Input()
+isShowContent:Boolean | undefined;
 // isRightcolAbsolute = false;
 // isLeftcolAbsolute = false;
 // isrowAbsolute = false;
@@ -30,4 +32,13 @@ isHamburgerColorWhite =false;
   }
 
 
+  clickfunction(){
+  
+    if(this.isShowContent) {
+      this.isShowContent = false;
+    }else {
+      this.isShowContent = true;
+    }
+    console.log(this.isShowContent, 'value')
+  }
 }

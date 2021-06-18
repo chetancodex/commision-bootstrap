@@ -1,24 +1,85 @@
 <div class="header" [ngClass]="{'position-relative':isPositionRelative}">
   <button class="btn btn-primary" [routerLink]="['/about']">about</button>
   <button class="btn btn-primary" [routerLink]="['/ourvision']">our vision</button>
+  <button class="btn btn-primary" [routerLink]="['/affilatemarketing']">affilateMarketing</button>
+<!-- <button (click)='clickfunction()'></button>
 
   <div class="box" >
-    <label for="check" class="hamburger" >
+    <label for="check" class="hamburger"
+     > 
       <input type="checkbox" id="check"/>
       <span [ngClass]="{'hamburger-color': isHamburgerColorWhite}"></span>
       <span [ngClass]="{'hamburger-color': isHamburgerColorWhite}"></span>
       <span [ngClass]="{'hamburger-color': isHamburgerColorWhite}"></span>
     </label>
   </div>
+ 
+  <div class="main-container">
 
+    <div class="container" [ngClass]="{'show-hamburger': isShowContent}">
+      <div class="hamburger-link row">
+        <a href="" class="col-md-6">home</a>
+        <a href="" class="col-md-6">offers</a>
+        <a href="" class="col-md-6"> about</a>
+        <a href="" class="col-md-6">patners</a>
+        <a href="" class="col-md-6">our vision</a>
+        <a href="" class="col-md-6">payments</a>
+        <a href="" class="col-md-6">services</a>
+        <a href="" class="col-md-6">FAX</a>
+        <a href="" class="col-md-6">publisher</a>
+        <a href="" class="col-md-6">career</a>
+        <a href="" class="col-md-6">advertisers</a>
+        <a href=""class="col-md-6">contect us</a>
+        <a href="" class="col-md-6">testimonials</a>
+        <a href="" class="col-md-6">login</a>
+        <a href="" class="col-md-12">Life At vc</a>
+        
+      </div>
+    </div>
+  </div> -->
 
+<ng-content></ng-content>
   <div class="logo" [ngClass]="{'logo-absolute':isPositionAbsolute}">
     <a href="" [routerLink]="['/']"><img *ngIf='!isColorChanged' [src]="data.img1" alt=""></a>
     <a href="" [routerLink]="['/']"><img *ngIf='isColorChanged' [src]="data.img2" alt="" ></a>
   </div>
   <div class="col" [ngClass]="{'color-white':isColorChanged, 'display-none': isDisplayNone, 'height-full':
    isHeightFullVH}">
+   <!-- <button (click)='clickfunction()'>abhah</button> -->
 
+   <!-- <div class="box" >
+     <label for="check" class="hamburger"
+      > 
+       <input type="checkbox" id="check"/>
+       <span [ngClass]="{'hamburger-color': isHamburgerColorWhite}"></span>
+       <span [ngClass]="{'hamburger-color': isHamburgerColorWhite}"></span>
+       <span [ngClass]="{'hamburger-color': isHamburgerColorWhite}"></span>
+     </label>
+   </div>
+  
+   <div class="main-container">
+ 
+     <div class="container" [ngClass]="{'show-hamburger': isShowContent}">
+       <div class="hamburger-link row">
+         <a href="" class="col-md-6">home</a>
+         <a href="" class="col-md-6">offers</a>
+         <a href="" class="col-md-6"> about</a>
+         <a href="" class="col-md-6">patners</a>
+         <a href="" class="col-md-6">our vision</a>
+         <a href="" class="col-md-6">payments</a>
+         <a href="" class="col-md-6">services</a>
+         <a href="" class="col-md-6">FAX</a>
+         <a href="" class="col-md-6">publisher</a>
+         <a href="" class="col-md-6">career</a>
+         <a href="" class="col-md-6">advertisers</a>
+         <a href=""class="col-md-6">contect us</a>
+         <a href="" class="col-md-6">testimonials</a>
+         <a href="" class="col-md-6">login</a>
+         <a href="" class="col-md-12">Life At vc</a>
+         
+       </div>
+     </div>
+   </div> -->
     <div class="left-col" [ngClass]="{'leftcol-Absolute':isPositionAbsolute}">{{data.leftcol}}</div>
     <ul class="right-col d-flex" [ngClass]="{'rightcol-Absolute':isPositionAbsolute}">
       <li><a href="">{{data.fb}}</a></li>

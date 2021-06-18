@@ -1,16 +1,15 @@
-<div class="main-container">
+<div class="main-container"  [ngStyle]="{'backgroundImage':'url(' +  aboutData.bgImage  + ')'}">
 
-<app-header class="change-color" [isColorChanged]='true' [isPositionRelative]='false' [isPositionAbsolute]='false' [isHeightFullVH]='false' [isHamburgerColorWhite]='true'></app-header>
+  <app-header class="change-color" [isColorChanged]='true' [isPositionRelative]='false' [isPositionAbsolute]='false'
+    [isHeightFullVH]='false' [isHamburgerColorWhite]='true'></app-header>
   <div class="hand-img">
-    <img src="../../../assets/about.hand.img" alt="">
+    <img [src]=aboutData.img alt="">
   </div>
   <div class="container">
-    <div class="pre-title">ABOUT US</div>
+    <div class="pre-title">{{aboutData.pretitle}}</div>
     <div class="title">
-      <div class="w">w</div>E LEAD <br>AS THE LARGEST</div>
-
-    <div class="description">We work hard, For your success.</div>
-
+      <div class="w">{{aboutData.W}}</div>{{aboutData.wUnder}}<br>{{aboutData.WLast}}
+    </div>
+    <div class="description">{{aboutData.description}}</div>
   </div>
 </div>
-

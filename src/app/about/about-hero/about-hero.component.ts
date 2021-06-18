@@ -1,5 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { object } from 'src/app/header/header';
+
+
 
 
 @Component({
@@ -9,6 +11,9 @@ import { object } from 'src/app/header/header';
 })
 export class AboutHeroComponent implements OnInit {
 data=object
+@Input()
+aboutData:any;
+
   constructor() { }
 
   ngOnInit(): void {

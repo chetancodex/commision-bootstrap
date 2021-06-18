@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { aboutHeroData } from 'src/app/about/about-hero/aboutHero';
 import { horseImg } from 'src/app/about/horse-img/horse';
 
 @Component({
@@ -9,6 +10,7 @@ import { horseImg } from 'src/app/about/horse-img/horse';
 export class AboutPageComponent implements OnInit {
 
   horseImgData = horseImg;
+  aboutHeroData = aboutHeroData;
   constructor() { }
 
   ngOnInit(): void {
