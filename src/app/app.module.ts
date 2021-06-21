@@ -17,9 +17,12 @@ import { OurVisionPageModule } from './page/our-vision-page/our-vision-page.modu
 
 
 
+
+
 @NgModule({
   declarations: [
-    AppComponent,
+    AppComponent
+    
     
     
     

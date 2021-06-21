@@ -21,3 +21,4 @@ export const smallTreeImageData = {
   imgTwo:"assets/bg-chessImg.jpg"
 
 }
+

@@ -13,8 +13,8 @@ export const affilateMarketingHeroData = {
 
     
     pretitle:"AFFILIATE MARKETING",
-    W: "w",
-    wUnder:"UNLOCK THE",
+    W: "w ",
+    wUnder:"E UNLOCK THE",
     WLast:"AFFILIATE ADVANTAGE",
     bgImage:"assets/AffiliateMarketing_banner.jpg"
 
