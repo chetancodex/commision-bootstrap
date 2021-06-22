@@ -8,6 +8,11 @@ import { AboutPageModule } from './page/about-page/about-page.module';
 import { AffilateMarketingPageModule } from './page/affilate-marketing-page/affilate-marketing-page.module';
 import { HomePageModule } from './page/home-page/home-page.module';
 import { OurVisionPageModule } from './page/our-vision-page/our-vision-page.module';
+import { PublisherPageModule } from './page/publisher-page/publisher-page.module';
+
+
+
+
 
 
 
@@ -21,8 +26,8 @@ import { OurVisionPageModule } from './page/our-vision-page/our-vision-page.modu
 
 @NgModule({
   declarations: [
-    AppComponent
-    
+    AppComponent,
+  
     
     
     
@@ -34,7 +39,8 @@ import { OurVisionPageModule } from './page/our-vision-page/our-vision-page.modu
     HomePageModule,
     AboutPageModule,
     OurVisionPageModule,
-    AffilateMarketingPageModule
+    AffilateMarketingPageModule,
+    PublisherPageModule
 
   ],
   providers: [],

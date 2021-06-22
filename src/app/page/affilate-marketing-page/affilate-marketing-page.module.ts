@@ -7,6 +7,7 @@ import { AffilateMarketingHeroWrapperModule } from 'src/app/affilateMarketing/af
 import { ChessImgContentModule } from 'src/app/affilateMarketing/chess-img-content/chess-img-content.module';
 import { AffilateMarketingHeadPhoneModule } from 'src/app/affilateMarketing/affilate-marketing-head-phone/affilate-marketing-head-phone.module';
 import { StepByStepProcessModule } from 'src/app/affilateMarketing/step-by-step-process/step-by-step-process.module';
+import { PreviousNextModule } from 'src/app/affilateMarketing/previous-next/previous-next.module';
 
 
 
@@ -20,7 +21,8 @@ import { StepByStepProcessModule } from 'src/app/affilateMarketing/step-by-step-
     AffilateMarketingHeroWrapperModule,
     ChessImgContentModule,
     AffilateMarketingHeadPhoneModule,
-    StepByStepProcessModule
+    StepByStepProcessModule,
+    PreviousNextModule
 
 
 

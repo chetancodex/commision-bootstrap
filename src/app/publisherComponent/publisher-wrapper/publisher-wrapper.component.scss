@@ -1,0 +1,51 @@
+.container{
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.info{
+    width: 50%;
+}
+.title{
+    font-size: 35px;
+    margin: 0 0 10px;
+    font-weight: bold;
+}
+.description{
+    font-size: 20px;
+    color: rgb(83, 83, 83);
+    margin: 20px 0px 0px;
+    padding-right: 120px;
+    line-height: 35px;
+}
+
+@media screen and (max-width:1000px){
+    .container{
+        flex-direction: column;
+    }
+    .info{
+        width: 90%;
+        margin: 0 auto 25px;
+    }
+}
+@media screen and (max-width:400px){
+    .container{
+        margin: 50px auto;
+    }
+    .info{
+        width: 95%;
+        margin: 0 auto 20px;
+        
+    }
+    .title{
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    .description{
+        font-size: 16px;
+        padding-right: 0px;
+    }
+}

@@ -54,6 +54,16 @@
   background-clip: text;
 
 }
+.text100k{
+  color: #eaff00;
+  font-size: 68px;
+  font-weight: bold;
+}
+.publisherMoreThan{
+  color: var(--chess-secondary);
+  font-size: 68px;
+  font-weight: bold;
+}
 .description {
   font-size: 20px;
   padding-top: 5px;
@@ -67,6 +77,9 @@
   right: 0;
   -webkit-animation: mover 1s infinite alternate;
   animation: mover 1s infinite alternate;
+}
+.publisherWhite{
+  color: white;
 }
 @keyframes mover {
   0% {
@@ -86,7 +99,8 @@
 @media screen and (max-width:715px){
   .container{
     width: 100%;
-    padding-bottom: 300px;
+    padding-bottom: 200px;
+    padding-top: 100px;
 
   }
   .main-container{
@@ -120,8 +134,15 @@
 font-size: 16px;
 }
 .container{
-  padding-top: 50px;
+  padding-top: 100px;
 }
+.publisherMoreThan{
+  font-size: 35px;
+}
+.text100k{
+  font-size: 35px;
+}
+
 }
 
 

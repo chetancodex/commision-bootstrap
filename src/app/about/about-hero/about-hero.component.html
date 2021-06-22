@@ -6,10 +6,16 @@
     <img [src]=aboutData.img alt="">
   </div>
   <div class="container">
-    <div class="pre-title">{{aboutData.pretitle}}</div>
+    <div class="pre-title" [ngClass]="{'publisherWhite':aboutData.isColorWhite}">{{aboutData.pretitle}}</div>
     <div class="title">
       <div class="w">{{aboutData.W}}</div>{{aboutData.wUnder}}<br>{{aboutData.WLast}}
     </div>
+    <div class="publisherMoreThan">{{aboutData.publishermorethan}}</div>
+     <div class="text100k">{{aboutData.text100k}}</div>
+    <div class="publisherMoreThan">{{aboutData.publisher}}</div>
+    <div class="publisherMoreThan">{{aboutData.worldwide}}</div>
+
+
     <div class="description">{{aboutData.description}}</div>
   </div>
 </div>

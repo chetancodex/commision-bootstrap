@@ -1,0 +1,74 @@
+.box{
+    width: 65%;
+    margin: 0 auto;
+}
+
+
+
+
+
+.title{
+    font-size: 70px;
+    color: #535353;
+    margin: 90px 0 70px;
+    font-weight: bold;
+    line-height: 1.3;
+}
+.steps{
+width: 40%;
+}
+.step-number{
+    font-size: 20px;
+    white-space: nowrap;
+    padding-right: 20px;
+    font-weight: bold;
+}
+.description{
+    font-size: 20px;
+    color: #535353;
+}
+.img{
+    padding-left: 30px;
+}
+.stepAndDescription{
+    margin-bottom: 20px;
+    display: flex;
+}
+h1{
+    margin: 50px auto;
+}
+@media screen and (max-width:1600px){
+    .box{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:1400px){
+    .box{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:1100px){
+.box{
+    width: 95%;
+    margin: 0 auto;
+}
+
+    .step-and-img{
+        flex-direction: column;
+    }
+    .description{
+        font-size: 16px;
+    }
+.steps{
+    width: 95%;
+    margin: 0 auto 20px;
+}
+.title{
+    font-size: 40px;
+}
+h1{
+    font-size: 15px;
+}
+}
