@@ -1,0 +1,121 @@
+.containerr{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 100px auto;
+    position: relative;
+}
+.pretitle{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.title{
+    display: inline;
+    font-size: 20px;
+    background-color: rgb(189, 186, 186);
+    
+}
+.img{
+    width: 45%;
+}
+
+.content{
+    width: 45%;
+}
+.heading{
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+.description{
+    font-size: 16px;
+}
+.btn{
+    display: inline-block;
+    margin: 50px 10px;
+    border: 2px solid var(--primary);
+    padding: 12px 30px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.imgTwo{
+    position: absolute;
+    left: 22%;
+    top: 20%;
+    animation: rotate-center 6.5s ease-in-out infinite both;
+}
+@keyframes rotate-center{
+    
+        0% {
+            -webkit-transform: rotate(0);
+            transform: rotate(0);
+        }
+        100% {
+            -webkit-transform: rotate(
+        360deg
+        );
+            transform: rotate(
+        360deg
+        );
+        }
+    }
+
+    @media screen and (max-width:1000px){
+        .containerr{
+         flex-direction: column;
+         width: 90%;
+         margin: 50px auto;
+
+
+
+        }
+        .img{
+            width: 100%;
+        }
+        .imgOne{
+            width: 100%;
+        }
+        .imgTwo{
+            width: 35%;
+        }
+        .content{
+            width: 100%;
+        }
+        .imgTwo{
+            position: absolute;
+            left: 50%;
+            top: 12%;
+            animation: rotate-center 6.5s ease-in-out infinite both;
+        }
+    }
+    @media screen and (max-width:700px){
+        .pretitle{
+            font-size: 25px;
+            margin-bottom: 10px;
+        }
+        .title{
+            font-size: 16px;
+        }
+        .heading{
+            font-size: 18px;
+            margin-top: 5px;
+        }
+        .description{
+            font-size: 12px;
+        }
+        
+            .btn{
+                display: inline-block;
+                margin: 12px 8px;
+                border: 2px solid var(--primary);
+                padding: 8px 15px;
+                font-size: 15px;
+                font-weight: bold;
+            
+            }
+        }
+
+    
