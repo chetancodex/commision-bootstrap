@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { publisherHeroData } from 'src/app/about/about-hero/aboutHero';
+import { endImgPublisherData } from 'src/app/json-data/endImgPublisher';
 import { publisherHandData } from 'src/app/json-data/publisherHand';
 import { publisherWrapperData } from 'src/app/json-data/publisherWrapper';
 
@@ -11,7 +12,8 @@ import { publisherWrapperData } from 'src/app/json-data/publisherWrapper';
 export class PublisherPageComponent implements OnInit {
   publisherHeroData=publisherHeroData
   publisherWrapperData = publisherWrapperData;
-  publisherHandData = publisherHandData
+  publisherHandData = publisherHandData;
+  endImgPublisherData =endImgPublisherData
   constructor() { }
 
   ngOnInit(): void {

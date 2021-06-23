@@ -27,6 +27,7 @@ import { PublisherPageModule } from './page/publisher-page/publisher-page.module
 @NgModule({
   declarations: [
     AppComponent,
+    
   
     
     

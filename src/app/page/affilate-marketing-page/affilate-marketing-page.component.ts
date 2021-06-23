@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { affilateMarketingHeroData } from 'src/app/about/about-hero/aboutHero';
+import { affilateMarketingWrapperData } from 'src/app/json-data/affilateMarketingHeroWrapperData';
 
 @Component({
   selector: 'app-affilate-marketing-page',
@@ -7,7 +8,8 @@ import { affilateMarketingHeroData } from 'src/app/about/about-hero/aboutHero';
   styleUrls: ['./affilate-marketing-page.component.scss']
 })
 export class AffilateMarketingPageComponent implements OnInit {
-  affilateMarketingHeroData=affilateMarketingHeroData
+  affilateMarketingHeroData=affilateMarketingHeroData;
+  affilateMarketingWrapperData=affilateMarketingWrapperData
   constructor() { }
 
   ngOnInit(): void {
