@@ -81,6 +81,9 @@
 .publisherWhite{
   color: white;
 }
+.primaryColor{
+  color: var(--primary);
+}
 @keyframes mover {
   0% {
     transform: translateY(0);

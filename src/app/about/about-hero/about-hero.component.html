@@ -11,7 +11,7 @@
       <div class="w">{{aboutData.W}}</div>{{aboutData.wUnder}}<br>{{aboutData.WLast}}
     </div>
     <div class="publisherMoreThan">{{aboutData.publishermorethan}}</div>
-     <div class="text100k">{{aboutData.text100k}}</div>
+     <div class="text100k" [ngClass]="{'primaryColor':aboutData.isPrimaryColor}">{{aboutData.text100k}} <span [ngStyle]="{'color': 'white'}">{{aboutData.textOf}}</span></div>
     <div class="publisherMoreThan">{{aboutData.publisher}}</div>
     <div class="publisherMoreThan">{{aboutData.worldwide}}</div>
 

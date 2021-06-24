@@ -33,3 +33,14 @@ export const affilateMarketingHeroData = {
       isColorWhite:true
       
     }
+    export const advertiserHeroData = {
+      pretitle:"ADVERTISERS",
+      wUnder:"TRUSTED BY",
+      text100k:"100s",
+      textOf:"OF",
+      publisher:"BRANDS",
+      worldwide:"WORLDWIDE",
+      bgImage:"assets/advertiser_banner.jpg",
+      isColorWhite:true,
+      isPrimaryColor:true
+    }

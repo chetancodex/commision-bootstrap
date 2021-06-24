@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-step-by-step-process',
@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./step-by-step-process.component.scss']
 })
 export class StepByStepProcessComponent implements OnInit {
-
+@Input()
+data:any
   constructor() { }
 
   ngOnInit(): void {
+    console.log(this.data)
   }
+
 
 }
