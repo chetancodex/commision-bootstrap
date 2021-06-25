@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import {Location} from '@angular/common';
 @Component({
   selector: 'app-patners',
@@ -7,6 +7,8 @@ import {Location} from '@angular/common';
 })
 export class PatnersComponent implements OnInit {
   private _location: any;
+  @Input()
+  data:any;
 
   constructor(_private_location: Location) { }
 

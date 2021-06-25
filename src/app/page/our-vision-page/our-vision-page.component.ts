@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ourVisionHeroWrapper } from 'src/app/json-data/ourVisionHeroWrapper';
+import { ourVisionPatners } from 'src/app/json-data/patners';
 
 @Component({
   selector: 'app-our-vision-page',
@@ -7,7 +8,8 @@ import { ourVisionHeroWrapper } from 'src/app/json-data/ourVisionHeroWrapper';
   styleUrls: ['./our-vision-page.component.scss']
 })
 export class OurVisionPageComponent implements OnInit {
-  ourVisionHeroWrapper=ourVisionHeroWrapper
+  ourVisionHeroWrapper=ourVisionHeroWrapper;
+  ourVisionPatners=ourVisionPatners
   constructor() { }
 
   ngOnInit(): void {

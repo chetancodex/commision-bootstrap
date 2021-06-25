@@ -2,20 +2,20 @@
 <div class="main-container">
 
   <div class="container">
-    <div class="heading">If you are looking to partner with us
+    <div class="heading">{{data.heading}}
     </div>
     <div class="info">
-      <div class="infoOne">
+      <div class="infoOne spaceBottom" *ngFor= "let item of data.infoList">
 
-        <div class="title">AFFILATE</div>
-        <div class="description">The reason to partner with us simply lies in our approach. We have got a knack for uncomplicating complicated things! We have an extensive bank of 100K+ trusted affiliates across various verticals on board who.
+        <div class="title">{{item.title}}</div>
+        <div class="description">{{item.description}}
         </div>
         <div class="btn">
           <app-log-in></app-log-in>
           <app-sign-up></app-sign-up>
         </div>
       </div>
-      <div class="infoTwo">
+      <!-- <div class="infoOne">
 
         <div class="title">ADVERTISER
         </div>
@@ -26,11 +26,11 @@
           <app-log-in></app-log-in>
           <app-sign-up></app-sign-up>
         </div>
-      </div>
+      </div> -->
 
     </div>
   </div>
 </div>
 <div class="previous-next">
-  <a href="" (click)='backClicked()'>Previous Next</a>
+  <a href="" (click)='backClicked()'>{{data.previousNext}}</a>
 </div>

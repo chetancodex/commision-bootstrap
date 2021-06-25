@@ -3,3 +3,10 @@ export const ourVisionHeroWrapper= {
     bgImage:"assets/vision_img1-1.jpg"
 
 }
+
+export const advertiserWrapper={
+    title:"Affiliates are paid only for actual verified sales.",
+    description:"This way, you get guaranteed quality of sales, leads, clicks and impressions. Your dedicated account manager will always stay in touch with you (no matter how far our time zones are) and keep a check on traffic for quality assurance.",
+    bgImage:"assets/advertiser_img1.png",
+    absulateImage:"assets/phone.png"
+}

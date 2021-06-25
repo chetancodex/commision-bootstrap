@@ -1,3 +1,4 @@
+
 .main-container{
   background:#f7f7f7;
   padding: 80px 0 80px;
@@ -5,7 +6,7 @@
 .container{
   padding: 50px 0;
 }
-.infoOne, .infoTwo{
+.infoOne{
   width: 50%;
 }
 .info{
@@ -39,12 +40,15 @@
   .info{
     flex-direction: column;
   }
-  .infoOne, .infoTwo{
+  .infoOne{
     width: 90%;
     margin: 0 auto;
   }
-  .infoOne{
-    margin-bottom: 40px;
+  // .infoOne{
+  //   margin-bottom: 40px;
+  // }
+  .spaceBottom{
+    margin: 20px 0;
   }
   .description{
     padding-right: 0;
