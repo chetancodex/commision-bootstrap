@@ -10,6 +10,8 @@ import { AffilateMarketingPageModule } from './page/affilate-marketing-page/affi
 import { HomePageModule } from './page/home-page/home-page.module';
 import { OurVisionPageModule } from './page/our-vision-page/our-vision-page.module';
 import { PublisherPageModule } from './page/publisher-page/publisher-page.module';
+import { TestimonialsPageModule } from './page/testimonials-page/testimonials-page.module';
+
 
 
 
@@ -33,6 +35,7 @@ import { PublisherPageModule } from './page/publisher-page/publisher-page.module
     
     
     
+    
   
     
     
@@ -47,7 +50,8 @@ import { PublisherPageModule } from './page/publisher-page/publisher-page.module
     OurVisionPageModule,
     AffilateMarketingPageModule,
     PublisherPageModule,
-    AdvertiserPageModule
+    AdvertiserPageModule,
+    TestimonialsPageModule
 
   ],
   providers: [],

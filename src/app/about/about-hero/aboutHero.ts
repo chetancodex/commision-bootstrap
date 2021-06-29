@@ -44,3 +44,11 @@ export const affilateMarketingHeroData = {
       isColorWhite:true,
       isPrimaryColor:true
     }
+    export const testimonialsHeroData = {
+      pretitle:"TESTIMONIALS",
+      wUnder:"We Get People",
+      publishermorethan:"Talking",
+      aboutUs:"About Us.",
+      bgImage:"assets/testimonial-banner01-1.jpg"
+
+    }

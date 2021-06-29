@@ -15,6 +15,8 @@ export const ourVisionPatners ={
 
 export const advertiserWithUs = {
     heading:"If you are looking to Advertise with us",
+    previousNext:"Previous Next",
+
   infoList:[
       {
        title:"PAY PER PEFORMANCE",

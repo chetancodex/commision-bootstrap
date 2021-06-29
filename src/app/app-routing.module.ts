@@ -6,6 +6,7 @@ import { AffilateMarketingPageComponent } from './page/affilate-marketing-page/a
 import { HomePageComponent } from './page/home-page/home-page.component';
 import { OurVisionPageComponent } from './page/our-vision-page/our-vision-page.component';
 import { PublisherPageComponent } from './page/publisher-page/publisher-page.component';
+import { TestimonialsPageComponent } from './page/testimonials-page/testimonials-page.component';
 
 
 const routes: Routes = [
@@ -34,6 +35,10 @@ const routes: Routes = [
   {
     path:'advertiser',
     component:AdvertiserPageComponent
+  },
+  {
+    path:'testimonials',
+    component:TestimonialsPageComponent
   },
   {
     path:'**',
