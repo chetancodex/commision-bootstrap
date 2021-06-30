@@ -4,6 +4,7 @@ import { AboutPageComponent } from './page/about-page/about-page.component';
 import { AdvertiserPageComponent } from './page/advertiser-page/advertiser-page.component';
 import { AffilateMarketingPageComponent } from './page/affilate-marketing-page/affilate-marketing-page.component';
 import { HomePageComponent } from './page/home-page/home-page.component';
+import { LifeAtVcPageComponent } from './page/life-at-vc-page/life-at-vc-page.component';
 import { OurVisionPageComponent } from './page/our-vision-page/our-vision-page.component';
 import { PublisherPageComponent } from './page/publisher-page/publisher-page.component';
 import { TestimonialsPageComponent } from './page/testimonials-page/testimonials-page.component';
@@ -39,6 +40,10 @@ const routes: Routes = [
   {
     path:'testimonials',
     component:TestimonialsPageComponent
+  },
+  {
+  path:'lifeAtVc',
+  component:LifeAtVcPageComponent
   },
   {
     path:'**',

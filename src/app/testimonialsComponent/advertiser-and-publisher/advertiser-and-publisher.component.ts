@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import {Location} from '@angular/common';
 
 @Component({
   selector: 'app-advertiser-and-publisher',
@@ -8,9 +9,12 @@ import { Component, Input, OnInit } from '@angular/core';
 export class AdvertiserAndPublisherComponent implements OnInit {
 @Input()
 data:any
-  constructor() { }
+  constructor(private _location: Location) { }
 
   ngOnInit(): void {
+    
   }
-
+  backClicked() {
+    this._location.back();
+  }
 }

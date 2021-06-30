@@ -11,6 +11,7 @@ import { HomePageModule } from './page/home-page/home-page.module';
 import { OurVisionPageModule } from './page/our-vision-page/our-vision-page.module';
 import { PublisherPageModule } from './page/publisher-page/publisher-page.module';
 import { TestimonialsPageModule } from './page/testimonials-page/testimonials-page.module';
+import { LifeAtVcPageComponent } from './page/life-at-vc-page/life-at-vc-page.component';
 
 
 
@@ -32,6 +33,7 @@ import { TestimonialsPageModule } from './page/testimonials-page/testimonials-pa
 @NgModule({
   declarations: [
     AppComponent,
+    LifeAtVcPageComponent,
     
     
     
