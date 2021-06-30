@@ -50,3 +50,23 @@ span::after{
 //   .close:after {
 //     transform: rotate(-45deg);
 //   }
+.previous-next{
+    margin: 150px 0 250px;
+    }
+    
+    .previous-next a{
+     font-size: 100px;
+     text-decoration: none;
+     font-weight: bold;
+     color: var(--primary);
+     display: block;
+     text-align: center;
+    }
+    @media screen and (max-width:640px){
+      .previous-next a{
+        font-size: 50px;
+      }
+      .previous-next{
+        margin: 50px 0 60px;
+      }
+    }

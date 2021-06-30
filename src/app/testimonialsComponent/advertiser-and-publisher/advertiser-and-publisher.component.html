@@ -1,0 +1,47 @@
+<div class="button">
+  <div class="btn btn-lg btn-primary text-center"> <a href=""> Advertiser </a></div>
+  <div class="btn btn-lg btn-primary text-center"> <a href="">  Publisher</a></div>
+</div>
+<div class="container">
+
+  <div class="cardOne" *ngFor ="let item of data">
+    <div class="card-border">
+      
+      <div class="card-content">
+        <div class="name">{{item.name}}
+        </div>
+        <div class="position">{{item.position}}
+        </div>
+        
+        <div class="website">
+          {{item.website}}
+          
+        </div>
+        <div class="card-hr">
+          
+        </div>
+        <div class="description">{{item.description}}
+        </div>
+      </div>
+      
+    </div>
+    <div class="img-box" >
+      <div class="card-img-inner-box">
+        <img [src]="item.image" alt="">
+        
+      </div>
+      
+    </div>
+  </div>
+
+ 
+</div>
+
+<div class="previous-next">
+  <a href="" >Previous Next</a>
+</div>
+  
+
+
+
+  
