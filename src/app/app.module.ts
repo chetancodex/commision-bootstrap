@@ -8,10 +8,13 @@ import { AboutPageModule } from './page/about-page/about-page.module';
 import { AdvertiserPageModule } from './page/advertiser-page/advertiser-page.module';
 import { AffilateMarketingPageModule } from './page/affilate-marketing-page/affilate-marketing-page.module';
 import { HomePageModule } from './page/home-page/home-page.module';
+import { LifeAtVcPageModule } from './page/life-at-vc-page/life-at-vc-page.module';
 import { OurVisionPageModule } from './page/our-vision-page/our-vision-page.module';
 import { PublisherPageModule } from './page/publisher-page/publisher-page.module';
 import { TestimonialsPageModule } from './page/testimonials-page/testimonials-page.module';
-import { LifeAtVcPageComponent } from './page/life-at-vc-page/life-at-vc-page.component';
+
+
+
 
 
 
@@ -33,7 +36,9 @@ import { LifeAtVcPageComponent } from './page/life-at-vc-page/life-at-vc-page.co
 @NgModule({
   declarations: [
     AppComponent,
-    LifeAtVcPageComponent,
+    
+    
+    
     
     
     
@@ -53,7 +58,8 @@ import { LifeAtVcPageComponent } from './page/life-at-vc-page/life-at-vc-page.co
     AffilateMarketingPageModule,
     PublisherPageModule,
     AdvertiserPageModule,
-    TestimonialsPageModule
+    TestimonialsPageModule,
+    LifeAtVcPageModule
 
   ],
   providers: [],

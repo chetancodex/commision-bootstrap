@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { aboutHeroData } from 'src/app/about/about-hero/aboutHero';
+import { lifeVCommission } from 'src/app/about/about-hero/aboutHero';
+import { lifeVCommissionWrapper } from 'src/app/json-data/aboutMaxQuality';
+import { teamImage } from 'src/app/json-data/teamImage';
+
 
 @Component({
   selector: 'app-life-at-vc-page',
@@ -7,7 +10,9 @@ import { aboutHeroData } from 'src/app/about/about-hero/aboutHero';
   styleUrls: ['./life-at-vc-page.component.scss']
 })
 export class LifeAtVcPageComponent implements OnInit {
-
+  lifeVCommission=lifeVCommission;
+  lifeVCommissionWrapper=lifeVCommissionWrapper;
+  teamImage=teamImage
   constructor() { }
 
   ngOnInit(): void {

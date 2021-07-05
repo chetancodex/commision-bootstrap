@@ -52,3 +52,9 @@ export const affilateMarketingHeroData = {
       bgImage:"assets/testimonial-banner01-1.jpg"
 
     }
+    export const lifeVCommission = {
+      pretitle:"LIFE @ VCOMMISSION",
+      wUnder:"Build a fun",
+      publishermorethan:"at work culture",
+      bgImage:"assets/life-vc-banner.jpg"
+    }
