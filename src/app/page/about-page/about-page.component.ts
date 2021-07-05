@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { aboutHeroData } from 'src/app/about/about-hero/aboutHero';
 import { horseImg } from 'src/app/about/horse-img/horse';
+import { aboutAffilateMarketing } from 'src/app/json-data/about-affilate-marketing';
+import { aboutEndImage } from 'src/app/json-data/about-end-img-data';
+import { structureImg } from 'src/app/json-data/about-structure';
 import { maxQualityPerformance } from 'src/app/json-data/aboutMaxQuality';
 
 @Component({
@@ -12,7 +15,10 @@ export class AboutPageComponent implements OnInit {
 
   horseImgData = horseImg;
   aboutHeroData = aboutHeroData;
-  maxQualityPerformance =maxQualityPerformance
+  maxQualityPerformance =maxQualityPerformance;
+  aboutAffilateMarketing=aboutAffilateMarketing;
+  aboutEndImage=aboutEndImage;
+  structureImg=structureImg
   constructor() { }
 
   ngOnInit(): void {

@@ -58,3 +58,9 @@ export const affilateMarketingHeroData = {
       publishermorethan:"at work culture",
       bgImage:"assets/life-vc-banner.jpg"
     }
+    export const partners ={
+      pretitle:"PARTNERS",
+      wUnder:"Business Solutions",
+      publishermorethan:"Designed for Your Growth",
+      bgImage:"assets/partner_banner.jpg"
+    }

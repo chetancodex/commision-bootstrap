@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-structure-img',
@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./structure-img.component.scss']
 })
 export class StructureImgComponent implements OnInit {
-
+@Input()
+data:any
   constructor() { }
 
   ngOnInit(): void {

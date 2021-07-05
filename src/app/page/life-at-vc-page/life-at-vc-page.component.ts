@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { lifeVCommission } from 'src/app/about/about-hero/aboutHero';
 import { lifeVCommissionWrapper } from 'src/app/json-data/aboutMaxQuality';
+import { LastImgWithPreviousNext } from 'src/app/json-data/lastImgWithPreviousNext';
 import { teamImage } from 'src/app/json-data/teamImage';
 
 
@@ -12,7 +13,8 @@ import { teamImage } from 'src/app/json-data/teamImage';
 export class LifeAtVcPageComponent implements OnInit {
   lifeVCommission=lifeVCommission;
   lifeVCommissionWrapper=lifeVCommissionWrapper;
-  teamImage=teamImage
+  teamImage=teamImage;
+  LastImgWithPreviousNext=LastImgWithPreviousNext
   constructor() { }
 
   ngOnInit(): void {

@@ -3,31 +3,27 @@
   <div class="info d-flex justify-content-between">
 
     <div class="infoOne">
-      <img src="../../../assets/structure_img.jpg" alt="">
+      <img [src]= data.img alt="">
     </div>
     <div class="infoTwo">
-      <div class="title">The step we <span>take</span>  towards success
+      <div class="title">{{data.titleOne}}<span>{{data.titleTwo}}</span> {{data.titleThree}}
       </div>
-      <div class="description">
-        In 2008, vCommission was started by a team of affiliates working for western networks with a vision to revolutionize the Indian affiliate marketing industry and deliver unparalleled results to our partners. And it was the outcome of our efforts that in 2012, vCommission was ranked among the top 5 affiliate networks.
-
-
+      <div class="description">{{data.description}}
       </div>
     </div>
 
   </div>
 </div>
 <div class="container space-bottom">
-  <div class="heading">
-    Our Mantra for Success: <span>‘We’</span>  and not <span>‘I’</span>
+  <div class="heading">{{data.headingOne}}<span>{{data.headingTwo}}</span> {{data.headingThree}}<span>{{data.headingFour}}</span>
 
   </div>
-  <div class="about">Our team of professionals and industry experts understands the value of teamwork. By ‘we’, we mean our publishers who, along with our seasoned team of affiliate managers, always remain at the heart of the entire advertising process, from curating a cost-effective marketing campaign to remolding it for the purpose of accomplishing the desired objectives.
+  <div class="about">{{data.about}}
 
   </div>
-  <div class="heading">We lead from CPA to Z
+  <div class="heading">{{data.heading2}}
   </div>
-  <div class="about">to extend beyond boundaries and go the extra mile for you so that you achieve all your milestones.
+  <div class="about">{{data.about2}}
 
   </div>
 </div>

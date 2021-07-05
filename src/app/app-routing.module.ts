@@ -6,6 +6,7 @@ import { AffilateMarketingPageComponent } from './page/affilate-marketing-page/a
 import { HomePageComponent } from './page/home-page/home-page.component';
 import { LifeAtVcPageComponent } from './page/life-at-vc-page/life-at-vc-page.component';
 import { OurVisionPageComponent } from './page/our-vision-page/our-vision-page.component';
+import { PartnersPageComponent } from './page/partners-page/partners-page.component';
 import { PublisherPageComponent } from './page/publisher-page/publisher-page.component';
 import { TestimonialsPageComponent } from './page/testimonials-page/testimonials-page.component';
 
@@ -44,6 +45,10 @@ const routes: Routes = [
   {
   path:'lifeAtVc',
   component:LifeAtVcPageComponent
+  },
+  {
+    path: 'partners',
+    component:PartnersPageComponent
   },
   {
     path:'**',
