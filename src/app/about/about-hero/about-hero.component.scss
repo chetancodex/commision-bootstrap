@@ -5,6 +5,7 @@
   width: 100%;
   background-size: auto;
   position: relative;
+  background-size: cover;
 
 }
 .change-color {
@@ -86,6 +87,17 @@
 }
 .primaryColor{
   color: var(--primary);
+}
+.colorBlack{
+  color: black;
+  font-weight: 400;
+}
+.colorAboutBlack{
+  color: var(--about-black);
+  font-weight: bold;
+}
+.colorGreen{
+  color: #83b94d;
 }
 @keyframes mover {
   0% {

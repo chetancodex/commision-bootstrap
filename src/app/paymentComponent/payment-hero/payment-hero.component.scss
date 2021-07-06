@@ -1,0 +1,67 @@
+.main-container {
+    background-image: url("../../../assets/payment_banner.jpg");
+    height: 100vh;
+    background-position: center;
+    width: 100%;
+    background-size: auto;
+    position: relative;
+    background-size: cover;
+    
+  
+  }
+  .container {
+    padding-top: 200px;
+    line-height: 1.1;
+    width: 80%;
+  }
+  .pre-title {
+    color: var(--about-black);
+    font-size: 1.7rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .title {
+    font-size: 68px;
+    line-height: 1.1;
+    font-weight: bold;
+    color: var(--primary);
+  }
+  .titleUnder{
+    color: var(--about-black);
+    font-size: 68px;
+    font-weight: bold;
+  }
+  @media screen and (max-width:715px){
+    .container{
+      width: 100%;
+      padding-bottom: 200px;
+      padding-top: 100px;
+  
+    }
+    .main-container{
+       width: 100%;
+  
+       height: auto;
+  
+    }
+    .pre-title{
+      font-size: 1.4rem;
+    }
+    .title, .titleUnder{
+      font-size: 50px;
+    }
+    
+  
+  }
+  @media screen and (max-width:428px){
+    .pre-title{
+      font-size: 12px;
+    }
+    .title, .titleUnder{
+      font-size:35px;
+    }
+    .container{
+      padding-top: 100px;
+    }
+    }

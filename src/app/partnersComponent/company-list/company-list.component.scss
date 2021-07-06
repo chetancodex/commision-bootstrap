@@ -1,0 +1,32 @@
+.container{
+    margin: 50px auto;
+}
+.container p{
+    font-size: 20px;
+    color: var(--about-black);
+    margin: 25px 0 0;
+    text-align: center;
+}
+.companyList{
+    margin: 50px 0 70px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.partners{
+    margin: 10px 20px 20px 0;
+    box-shadow: 0 0 18px rgb(0 0 0 / 22%);
+
+}
+
+@media screen and (max-width:400px){
+.container p{
+    font-size: 16px;
+}
+}
+@media screen and (max-width:800px){
+    .companyList{
+        width: 90%;
+        margin: 0 auto;
+    }
+}

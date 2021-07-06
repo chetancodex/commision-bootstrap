@@ -6,16 +6,14 @@
     <img [src]=aboutData.img alt="">
   </div>
   <div class="container">
-    <div class="pre-title" [ngClass]="{'publisherWhite':aboutData.isColorWhite}">{{aboutData.pretitle}}</div>
-    <div class="title">
+    <div class="pre-title" [ngClass]="{'publisherWhite':aboutData.isColorWhite, 'colorBlack':aboutData.isColorBlack}">{{aboutData.pretitle}}</div>
+    <div class="title" [ngClass]="{'colorAboutBlack':aboutData.isColorAboutBlack}">
       <div class="w">{{aboutData.W}}</div>{{aboutData.wUnder}}<br>{{aboutData.WLast}}
     </div>
-    <div class="publisherMoreThan">{{aboutData.publishermorethan}} <span class="color-primary">{{aboutData.aboutUs}}</span></div>
+    <div class="publisherMoreThan" [ngClass]="{'colorGreen':aboutData.isColorGreen}">{{aboutData.publishermorethan}} <span class="color-primary">{{aboutData.aboutUs}}</span></div>
      <div class="text100k" [ngClass]="{'primaryColor':aboutData.isPrimaryColor}">{{aboutData.text100k}} <span [ngStyle]="{'color': 'white'}">{{aboutData.textOf}}</span></div>
     <div class="publisherMoreThan">{{aboutData.publisher}}</div>
     <div class="publisherMoreThan">{{aboutData.worldwide}}</div>
-
-
     <div class="description">{{aboutData.description}}</div>
   </div>
 </div>
