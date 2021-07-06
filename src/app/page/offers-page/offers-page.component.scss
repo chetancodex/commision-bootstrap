@@ -1,0 +1,239 @@
+.main{
+    background-image: url(http://vcim.net/vcom20/wp-content/uploads/2021/02/offer_bg.jpg);
+    height: 75vh;
+}
+.width{
+    max-width: 1207px;
+}
+body{
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+.gift-img{
+    position: relative;
+}
+.gift-img img{
+    position: absolute;
+    max-width: 100%;
+    top: 145px;
+    left: 345px;
+}
+.headings{
+    position: relative;
+}
+.headings span{
+    font-size: 17px;
+    position: absolute;
+    top: 300px;
+    left: 385px;
+    color: rgb(156, 196, 48);
+}
+.headings h1{
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    top: 322px;
+    left: 382px;
+}
+
+.center-text h2{
+    font-size: 36px;
+    color: #a6ce3a;
+    text-align: center;
+}
+.center-text p{
+    font-size:20px ;
+    color: #000000;
+    text-align: center;
+}
+.center-text button{
+    color:#a6ce3a ;
+    border: 3px solid #a6ce3a;
+    font-size: 17px;
+    background: transparent;
+    padding: 8px 42px;
+}
+.center-btn{
+    text-align: center;
+}
+.center-text{
+    margin-top: 30px;
+    padding: 20px 20px 12px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgb(59 66 72 / 20%);
+    background: #FFFFFF;
+    border: 1px solid #e2e6e8;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.main_offer_row{
+    display: flex;
+    width: 100%;
+    padding: 30px 0 0px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.col-md-4{
+    padding: 0;
+    width: 28%;
+    margin: 10px 1% 10px;
+}
+.offer_col{
+    padding: 20px 20px 12px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgb(59 66 72 / 20%);
+    background: #fff;
+    border: 1px solid #e2e6e8;
+    display: inline-block;
+    width: 100%;
+}
+.main_offer_row .offer_col h2 {
+    text-align: center;
+    font-size: 18px;
+    height: 40px;
+    margin: 0px 0 5px;
+    font-family: 'gothambook';
+
+}
+.offer_img{
+    width: 100px;
+    height: 50px;
+    background: #fff;
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    padding: 5px;
+}
+.offer_img img{
+    max-width: 100%;
+}
+.offer_details{
+    width: calc(100% - 100px);
+    float: left;
+    padding-left: 20px;
+}
+.offer_details ul{
+    list-style: none;
+}
+.offer_details ul li{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 2px;
+}
+.offer_details ul li p{
+    font-weight: 700;
+    color: #565656;
+    width: 50%;
+    font-size: 14px;
+}
+.offer_details ul li p strong{
+    font-weight: 500;
+    font-family: 'gothambook';
+}
+.btn:hover{
+    color: white;
+    background-color:#a6ce3a;
+    cursor: pointer;
+}
+
+.card  {
+    border: none;
+    display: inline-block;
+    margin: 10px 0;
+    box-shadow: 0px 1px 10px #000;
+}
+.join:hover{
+    color: white;
+    background: #a6ce3a;
+    cursor: pointer;
+}
+.offer_details .join{
+    margin: -60px 0 0 -114px;
+    font-size: 12px;
+    border: 1px solid #a6ce3a;
+    border-radius: 0;
+    color: #a6ce3a;
+    background: #fff;   
+    font-family: 'gothambold';
+    padding: 6px 22px;
+}
+@media screen and (max-width:991px){
+    .gift-img img{
+        left: 49px;
+        top: 101px;
+    }
+    .hero-section{
+        position: relative;
+    }
+    .headings{
+        position: absolute;
+        left:-290px;
+        bottom: 30px;
+    }
+    .headings span{
+        width: 130px;
+    }
+    .headings h1{
+        color: white;
+        font-size: 51px;
+    }
+}
+@media screen and (max-width:1177px){
+    .offer_details ul li p{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:1177px){
+    .offer_details ul li p{
+        font-size: 11px;
+    }
+}
+@media screen and (max-width:1164px){
+    .offer_details ul li{
+        margin: 0px 0px 0px;
+    }
+}
+@media screen and (max-width:961px){
+    .offer_details ul li p{
+        font-size: 9px;
+    }
+    .col-md-4{
+        width: 100%;
+    }
+}
+@media screen and (max-width:1064px){
+    .col-md-4{
+        width: 31%;
+    }
+}
+@media screen and (max-width:903px){
+    .offer_col h2{
+        font-size: 14px;
+    }
+    .offer_img{
+        width: 100%;
+    }
+    .offer_details{
+        width: 100%;
+        margin: 0px -19px;
+    }
+    .offer_details ul{
+        margin: 0px -13px;
+    }
+    .offer_details ul li{
+        text-align: left;
+    }
+    .offer_details ul li p{
+        width: auto;
+    }
+    .joinbutton{ 
+        margin: 0px 159px ;
+    }
+}
+@media screen and (max-width:903px){
+
+}

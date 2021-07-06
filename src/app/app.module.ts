@@ -12,6 +12,8 @@ import { OurVisionPageModule } from './page/our-vision-page/our-vision-page.modu
 import { PublisherPageModule } from './page/publisher-page/publisher-page.module';
 import { TestimonialsPageModule } from './page/testimonials-page/testimonials-page.module';
 import { LifeAtVcPageComponent } from './page/life-at-vc-page/life-at-vc-page.component';
+import { OffersPageModule } from './page/offers-page/offers-page.module';
+import { FAQPageModule } from './page/faq-page/faq-page.module';
 
 
 
@@ -53,8 +55,9 @@ import { LifeAtVcPageComponent } from './page/life-at-vc-page/life-at-vc-page.co
     AffilateMarketingPageModule,
     PublisherPageModule,
     AdvertiserPageModule,
-    TestimonialsPageModule
-
+    TestimonialsPageModule,
+    OffersPageModule,
+    FAQPageModule
   ],
   providers: [],
   bootstrap: [AppComponent]

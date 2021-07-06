@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { OffersPageComponent } from './page/offers-page/offers-page.component';
 import { AboutPageComponent } from './page/about-page/about-page.component';
 import { AdvertiserPageComponent } from './page/advertiser-page/advertiser-page.component';
 import { AffilateMarketingPageComponent } from './page/affilate-marketing-page/affilate-marketing-page.component';
@@ -8,6 +9,7 @@ import { LifeAtVcPageComponent } from './page/life-at-vc-page/life-at-vc-page.co
 import { OurVisionPageComponent } from './page/our-vision-page/our-vision-page.component';
 import { PublisherPageComponent } from './page/publisher-page/publisher-page.component';
 import { TestimonialsPageComponent } from './page/testimonials-page/testimonials-page.component';
+import { FAQPageComponent } from './page/faq-page/faq-page.component';
 
 
 const routes: Routes = [
@@ -46,9 +48,17 @@ const routes: Routes = [
   component:LifeAtVcPageComponent
   },
   {
+  path:'offers-page',
+  component:OffersPageComponent
+  },
+  {
+  path:'faq-page',
+  component:FAQPageComponent
+  },
+  {
     path:'**',
     redirectTo:''
-  }
+  },
 ];
 
 @NgModule({

@@ -8,6 +8,8 @@
     <button class="btn btn-primary " [routerLink]="['/advertiser']">advertiser</button>
     <button class="btn btn-primary " [routerLink]="['/testimonials']">testimonials</button>
     <button class="btn btn-primary " [routerLink]="['/lifeAtVc']">life at vCommision</button>
+    <button class="btn btn-primary " [routerLink]="['/offers-page']">offers-page</button>
+    <button class="btn btn-primary " [routerLink]="['/faq-page']">faq-page</button>
 
   </div>
 <!-- <button (click)='clickfunction()'></button>
@@ -102,8 +104,12 @@
         <li><a href="">{{data.adversign}}</a></li>
         <li><a href="">{{data.affsign}}</a></li>
       </ul>
-      <div><strong>{{data.m}}</strong>
-        <a href="">{{data.hello}}</a></div>
+      <div class="down">
+        <div class="website-name">
+          <strong>{{data.m}}</strong>
+          <a href="">{{data.hello}}</a>
+        </div>
+        </div>
       </div>
     </div>
   </div>

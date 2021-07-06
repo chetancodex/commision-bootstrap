@@ -4,18 +4,18 @@
 .logo{
   width: 100%;
   position: fixed;
-  left: 19%;
+  left:10%;
   top: 2%;
 }
 
 .left-col {
-  font-size: 2rem;
+  font-size: 14px;
   font-weight: bold;
-  color: var(--header-primary);
+  color: white;
     position: fixed;
     z-index: 99;
     left: 40px;
-    top: 50%;
+    top: 35%;
     transform: translate(-50%, -50%) rotate(
 -90deg
 );}
@@ -24,8 +24,8 @@
   // display: flex;
     position: fixed;
     z-index: 99;
-    right: -450px;
-    top: 50%;
+    right: -352px;
+    top: 35%;
     transform: translate(-50%, -50%) rotate(
 90deg
 );
@@ -34,13 +34,20 @@ li{
 
   margin: 0 1rem 0 1rem;
   a{
-    font-size: 2.3rem;
+    font-size: 16px;
     font-weight: bold;
     text-decoration: none;
-    color:var(--header-primary);
+    color: white;
   }
 }
 
+}
+.down{
+  position: relative;
+}
+.website-name{
+  position: absolute;
+  bottom: 120px;
 }
 .row{
   // display: flex;
@@ -57,7 +64,8 @@ li{
 a{
   text-decoration: none;
   font-weight: bold;
-  color:var(--header-primary);
+  color:white;
+  font-size: 19px;
 }
 
 
@@ -65,14 +73,12 @@ a{
 .bottom-col
 {
   // display: flex;
-li{
-list-style: none;
-margin-right: 2rem;
-font-weight: bold;
-
+  li{
+    list-style: none;
+    margin-right: 2rem;
+    font-weight: bold;
+    margin: 138px 0px;
 }
-
-
 
 }
 // .bottom-col  {
@@ -140,6 +146,7 @@ label{
    width:70px;
    cursor:pointer;
  }
+ 
 
  label span{
    background: #000;
@@ -319,5 +326,8 @@ label .hamburger-color{
     position: fixed;
     z-index: 1011;
   }
+
+}
+@media screen and (max-width:1400px){
 
 }
