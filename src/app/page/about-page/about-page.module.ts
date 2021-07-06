@@ -8,6 +8,7 @@ import { HorseImgModule } from 'src/app/about/horse-img/horse-img.module';
 import { AffilateMarketingModule } from 'src/app/about/affilate-marketing/affilate-marketing.module';
 import { StructureImgModule } from 'src/app/about/structure-img/structure-img.module';
 import { EndImgModule } from 'src/app/about/end-img/end-img.module';
+import { AboutPaymentModule } from 'src/app/paymentComponent/about-payment/about-payment.module';
 
 
 
@@ -21,7 +22,8 @@ import { EndImgModule } from 'src/app/about/end-img/end-img.module';
     HorseImgModule,
     AffilateMarketingModule,
     StructureImgModule,
-    EndImgModule
+    EndImgModule,
+    AboutPaymentModule
   ],
   exports:[AboutPageComponent]
 })

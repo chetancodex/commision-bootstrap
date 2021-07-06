@@ -51,7 +51,7 @@ export const affilateMarketingHeroData = {
       aboutUs:"About Us.",
       bgImage:"assets/testimonial-banner01-1.jpg"
 
-    }
+    } 
     export const lifeVCommission = {
       pretitle:"LIFE @ VCOMMISSION",
       wUnder:"Build a fun",
@@ -63,4 +63,14 @@ export const affilateMarketingHeroData = {
       wUnder:"Business Solutions",
       publishermorethan:"Designed for Your Growth",
       bgImage:"assets/partner_banner.jpg"
+    }
+    export const paymentData = {
+      pretitle:"PAYMENT INSIGHTS",
+      wUnder:"EVERYTHING",
+      publishermorethan:"YOU NEED TO KNOW",
+      bgImage:"assets/payment_banner.jpg",
+      isColorBlack:true,
+      isColorAboutBlack:true,
+      isColorGreen:true,
+      
     }

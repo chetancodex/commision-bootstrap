@@ -11,29 +11,9 @@ import { HomePageModule } from './page/home-page/home-page.module';
 import { LifeAtVcPageModule } from './page/life-at-vc-page/life-at-vc-page.module';
 import { OurVisionPageModule } from './page/our-vision-page/our-vision-page.module';
 import { PartnersPageModule } from './page/partners-page/partners-page.module';
+import { PaymentPageModule } from './page/payment-page/payment-page.module';
 import { PublisherPageModule } from './page/publisher-page/publisher-page.module';
 import { TestimonialsPageModule } from './page/testimonials-page/testimonials-page.module';
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -49,11 +29,7 @@ import { TestimonialsPageModule } from './page/testimonials-page/testimonials-pa
     
     
     
-    
-    
-    
   
-    
     
     
   ],
@@ -69,7 +45,8 @@ import { TestimonialsPageModule } from './page/testimonials-page/testimonials-pa
     AdvertiserPageModule,
     TestimonialsPageModule,
     LifeAtVcPageModule,
-    PartnersPageModule
+    PartnersPageModule,
+    PaymentPageModule
 
   ],
   providers: [],
