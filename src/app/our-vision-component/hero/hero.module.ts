@@ -1,5 +1,5 @@
 
-import { HeroComponent } from 'src/app/ourVisionComponent/hero/hero.component';
+import { HeroComponent } from 'src/app/our-vision-component/hero/hero.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HeaderComponent } from 'src/app/header/header.component';

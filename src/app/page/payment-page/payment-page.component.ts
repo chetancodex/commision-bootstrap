@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { paymentHeroData } from 'src/app/json-data/paymentHero';
+import { paymentHeroData } from 'src/app/json-data/payment-hero';
 
 
 @Component({
