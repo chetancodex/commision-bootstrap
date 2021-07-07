@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { publisherHeroData } from 'src/app/about/about-hero/aboutHero';
-import { endImgPublisherData } from 'src/app/json-data/endImgPublisher';
-import { publisherHandData } from 'src/app/json-data/publisherHand';
-import { publisherWrapperData } from 'src/app/json-data/publisherWrapper';
+import { endImgPublisherData } from 'src/app/json-data/end-img-publisher';
+import { publisherHandData } from 'src/app/json-data/publisher-hand';
+import { publisherWrapperData } from 'src/app/json-data/publisher-wrapper';
 
 @Component({
   selector: 'app-publisher-page',

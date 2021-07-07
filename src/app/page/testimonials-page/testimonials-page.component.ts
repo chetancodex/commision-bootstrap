@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { testimonialsHeroData } from 'src/app/about/about-hero/aboutHero';
-import { cardData } from 'src/app/json-data/cardData';
+import { cardData } from 'src/app/json-data/card-data';
 
 @Component({
   selector: 'app-testimonials-page',

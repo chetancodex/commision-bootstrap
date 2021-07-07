@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ourVisionHeroWrapper } from 'src/app/json-data/ourVisionHeroWrapper';
+import { ourVisionHeroWrapper } from 'src/app/json-data/our-vision-hero-wrapper';
 import { ourVisionPatners } from 'src/app/json-data/patners';
 
 @Component({

@@ -19,6 +19,7 @@
 }
 .wrapper{
   display: flex;
+  
 }
 
 .name{
@@ -29,6 +30,11 @@
 .position{
   font-size: 2.4rem;
   margin: 0rem 1rem 5rem;
+}
+@media screen and (max-width:1300px){
+.wrapper{
+  flex-wrap: wrap;
+}
 }
 @media screen and (max-width:1000px){
 

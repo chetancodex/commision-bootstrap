@@ -1,8 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import { lifeVCommission } from 'src/app/about/about-hero/aboutHero';
-import { lifeVCommissionWrapper } from 'src/app/json-data/aboutMaxQuality';
-import { LastImgWithPreviousNext } from 'src/app/json-data/lastImgWithPreviousNext';
-import { teamImage } from 'src/app/json-data/teamImage';
+import { lifeVCommission } from '../../about/about-hero/aboutHero';
+import { lifeVCommissionWrapper } from '../../json-data/aboutMaxQuality';
+import { LastImgWithPreviousNext } from '../../json-data/last-img-with-previous-next';
+
+
+
+import { teamImage } from 'src/app/json-data/team-image';
 
 
 @Component({

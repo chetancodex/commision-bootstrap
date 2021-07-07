@@ -98,3 +98,9 @@
   }
 }
 
+@media screen and (max-width:768px){
+  .main-container{
+    width: 100%;
+    height: fit-content;
+  }
+}
