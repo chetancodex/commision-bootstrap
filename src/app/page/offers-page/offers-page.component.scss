@@ -234,6 +234,38 @@ body{
         margin: 0px 159px ;
     }
 }
-@media screen and (max-width:903px){
-
+@media screen and (max-width:767px){
+    .main_offer_row{
+        padding: 10px 0px 0px;
+    }
+    .col-md-4{
+        width: 100%;
+    }
+    .offer_col h2{
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .offer_img{
+        margin: 0 auto;
+        float: none;
+    }
+    .offer_details{
+        text-align: center;
+    }
+    .offer_details ul li p{
+        width: auto;
+    }
+    .joinbutton .join{
+        margin: 0px;
+    }
+}
+@media screen and (max-width:343px){
+    .joinbutton .join{
+        margin: 0px -23px;
+    }
+}
+@media screen and (max-width:360px){
+    .joinbutton .join{
+        margin: 0px -23px;
+    }
 }

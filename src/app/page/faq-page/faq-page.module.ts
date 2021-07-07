@@ -1,9 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FAQPageComponent } from '../faq-page/faq-page.component';
-import { HeaderModule } from 'src/app/header/header.module';
-
-
+import { HeaderModule } from 'src/app/header/header.module';;
 
 @NgModule({
   declarations: [
@@ -11,7 +9,7 @@ import { HeaderModule } from 'src/app/header/header.module';
   ],
   imports: [
     CommonModule,
-    HeaderModule
+    HeaderModule,
   ],
   exports:[
     FAQPageComponent

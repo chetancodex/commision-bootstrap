@@ -7,7 +7,6 @@ import { offerData } from './offers-page-data';
 })
 export class OffersPageComponent implements OnInit {
   Data=offerData
-
   constructor() { }
 
   ngOnInit(): void {

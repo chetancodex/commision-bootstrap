@@ -11,7 +11,9 @@
 .left-col {
   font-size: 14px;
   font-weight: bold;
-  color: white;
+  color: black;
+
+
     position: fixed;
     z-index: 99;
     left: 40px;
@@ -19,7 +21,7 @@
     transform: translate(-50%, -50%) rotate(
 -90deg
 );}
-.right-col{
+.right-col{ 
 
   // display: flex;
     position: fixed;
@@ -37,7 +39,7 @@ li{
     font-size: 16px;
     font-weight: bold;
     text-decoration: none;
-    color: white;
+    color: black;
   }
 }
 
@@ -64,7 +66,7 @@ li{
 a{
   text-decoration: none;
   font-weight: bold;
-  color:white;
+  color:black;
   font-size: 19px;
 }
 
