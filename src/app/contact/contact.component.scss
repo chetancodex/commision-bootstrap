@@ -8,8 +8,9 @@
   text-align: right;
   font-size: 3rem;
   font-weight: bold;
-  margin-right: 30rem;
-  padding-top: 5rem;
+  // margin-right: 30rem;
+  // padding-top: 5rem;
+  padding: 4% 30% 0 0;
 }
 .containerr{
   width: 70%;
@@ -35,7 +36,8 @@ input, select{
   color: white;
   font-size: 3rem;
   border: none;
-  padding: 1.2rem 0.4rem 3rem;
+  // padding: 1.2rem 0.4rem 3rem;
+  padding: 1.2% 0.5% 4%;
   border-bottom: 2px solid black;
   outline: none;
 }
@@ -49,7 +51,8 @@ input, select{
 .title{
   color: var(--chess-secondary);
   font-size: 6rem;
-  margin: 8px 0px 22px;
+  // margin: 8px 0px 22px;
+  margin: 0.8% 0% 2%;
   font-weight: bold;
 }
 .color-black{
@@ -102,7 +105,8 @@ input, select{
     margin: 0 auto;
   }
   .contact{
-    padding-top: 12rem;
+    // padding-top: 12rem;
+    padding-top: 12%;
   }
   .send{
     margin-bottom: 3rem;

@@ -52,7 +52,8 @@ li{
 }
 .website-name{
   position: absolute;
-  bottom: 120px;
+  bottom: 100px;
+  
 }
 .row{
   // display: flex;
@@ -83,7 +84,8 @@ a{
     list-style: none;
     margin-right: 2rem;
     font-weight: bold;
-    margin: 138px 0px;
+    // margin: 138px 0px;
+    margin: 8% 0%;
 }
 
 }
@@ -215,7 +217,8 @@ label .hamburger-color{
   background: black;
 }
 .container{
-  padding-top: 100px;
+  // padding-top: 100px;
+  padding-top: 10%;
   
 }
 .main-container{
@@ -363,4 +366,15 @@ label .hamburger-color{
     width: 80%;
 
   }
+}
+@media screen and (max-width:1440px){
+  .right-col{
+      top: 40%;
+      
+  }
+  .right-col{
+
+    top: 35%;
+      
+}
 }
