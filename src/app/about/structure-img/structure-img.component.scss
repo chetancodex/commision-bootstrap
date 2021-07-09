@@ -7,7 +7,8 @@
 }
 .infoTwo{
   width: 46%;
-  padding-top: 50px;
+  padding-top: 5%;
+
 }
 .title{
   font-size: 66px;
@@ -21,15 +22,16 @@ font-weight: bold;
 .description{
   font-size: 21px;
   color: var(--about-black);
-  padding: 0 0 30px;
+  padding: 5% 0%;
   line-height: 36px;
-  padding-top: 30px;
+  
 
 }
 .heading{
   font-size: 61px;
     color: var(--about-black);
-    margin: 25px 0 5px;
+    // margin: 25px 0 5px;
+    margin: 3% 0 1%;
     width: 100%;
     display: inline-block;
     font-weight: bold;
@@ -43,22 +45,26 @@ font-weight: bold;
 
 }
 .space-bottom{
-  margin-bottom: 100px;
+  // margin-bottom: 100px;
+  margin-bottom: 6%;
 }
-@media screen and (max-width:1000px){
+@media screen and (max-width:1024px){
   .info{
     flex-direction: column;
   }
   .infoOne, .infoTwo{
     width: 90%;
     margin: 0 auto;
-margin-bottom: 40px;
+// margin-bottom: 40px;
   }
 }
-@media screen and (max-width:550px){
+@media screen and (max-width:768px){
 .infoOne, .infoTwo{
   width: 100%;
   
+}
+.description{
+  padding: 0%;
 }
 .infoOne img{
 width: 100%;
@@ -66,6 +72,16 @@ width: 100%;
 .title, .heading{
   font-size: 40px;
   line-height: normal;
-  margin: 5px 0 10px;
+  margin: 1% 0 2%;
 }
+}
+@media screen and (max-width:425px){
+  .title, .heading{
+    font-size: 35px;
+    line-height: normal;
+    margin: 1% 0 2%;
+  }
+  .description .about{
+    font-size: 20px;
+  }
 }

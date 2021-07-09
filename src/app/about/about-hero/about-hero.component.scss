@@ -13,9 +13,11 @@
   color: white;
 }
 .container {
-  padding-top: 200px;
+  // padding-top: 200px;
+  padding-top: 20%;
   line-height: 1.1;
   width: 80%;
+
 }
 .pre-title {
   color: var(--primary);
@@ -68,7 +70,7 @@
 }
 .description {
   font-size: 20px;
-  padding-top: 5px;
+  padding-top: 1%;
   color: var(--chess-secondary);
   letter-spacing: 1px;
   line-height: 1.1;
@@ -115,11 +117,13 @@
 
 
 }
-@media screen and (max-width:715px){
+@media screen and (max-width:768px){
   .container{
     width: 100%;
-    padding-bottom: 200px;
-    padding-top: 100px;
+    // padding-bottom: 200px;
+    padding-bottom: 20%;
+    // padding-top: 100px;
+    padding-top: 10%;
 
   }
   .main-container{
@@ -139,7 +143,7 @@
   }
 
 }
-@media screen and (max-width:428px){
+@media screen and (max-width:425px){
 .pre-title{
   font-size: 12px;
 }
@@ -152,9 +156,9 @@
 .description{
 font-size: 16px;
 }
-.container{
-  padding-top: 100px;
-}
+// .container{
+//   padding-top: 100px;
+// }
 .publisherMoreThan{
   font-size: 35px;
 }

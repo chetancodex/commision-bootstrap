@@ -15,10 +15,33 @@ html{
   
 }
 
-.previous-next{
-  margin: 150px 0 250px;
-  }
+// .previous-next{
+//   margin: 150px 0 250px;
+//   }
 
+//   .previous-next a{
+//    font-size: 100px;
+//    text-decoration: none;
+//    font-weight: bold;
+//    color: var(--primary);
+//    display: block;
+//    text-align: center;
+//   }
+// @media screen and (max-width:700px){
+//   .previous-next{
+//     margin: 50px 0 50px;
+//     }
+//   .previous-next a{
+//     font-size: 50px;
+//   }
+ 
+
+// }
+.previous-next{
+  // margin: 150px 0 250px;
+  margin: 10% 0% 12%;
+  }
+  
   .previous-next a{
    font-size: 100px;
    text-decoration: none;
@@ -27,13 +50,18 @@ html{
    display: block;
    text-align: center;
   }
-@media screen and (max-width:700px){
-  .previous-next{
-    margin: 50px 0 50px;
+  @media screen and (max-width:768px){
+    .previous-next a{
+      font-size: 50px;
     }
-  .previous-next a{
-    font-size: 50px;
+    .previous-next{
+      // margin: 50px 0 60px;
+      margin: 5% 0% 6%;
+    }
   }
- 
-
-}
+  
+  @media screen and (max-width:320px){
+    .previous-next a{
+      font-size: 36px;
+    }
+  }

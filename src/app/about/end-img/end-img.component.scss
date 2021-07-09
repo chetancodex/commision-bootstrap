@@ -23,7 +23,8 @@
 }
 }
 .previous-next{
-margin: 150px 0 250px;
+// margin: 150px 0 250px;
+margin: 10% 0% 12%;
 }
 
 .previous-next a{
@@ -34,11 +35,18 @@ margin: 150px 0 250px;
  display: block;
  text-align: center;
 }
-@media screen and (max-width:640px){
+@media screen and (max-width:768px){
   .previous-next a{
     font-size: 50px;
   }
   .previous-next{
-    margin: 50px 0 60px;
+    // margin: 50px 0 60px;
+    margin: 5% 0% 6%;
+  }
+}
+
+@media screen and (max-width:320px){
+  .previous-next a{
+    font-size: 36px;
   }
 }
