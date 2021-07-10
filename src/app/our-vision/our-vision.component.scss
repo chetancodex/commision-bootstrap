@@ -1,6 +1,7 @@
 .containerr{
   background-image: url("../../assets/bg2.jpg");
-  height: 1000px;
+  // height: 1000px;
+  height: 100vh;
   width: 100%;
   background-position: center;
   background-size: cover;
@@ -11,7 +12,8 @@
 .about{
   width: 60%;
   margin: 0 auto;
-  padding-top: 320px;
+  // padding-top: 320px;
+  padding-top: 15%;
 }
 .pre-title{
   color: var(--primary);
@@ -23,7 +25,8 @@
 .title{
   color:var(--chess-secondary);
   font-size: 4.8rem;
-  margin: 8px 0px 5px;
+  // margin: 8px 0px 5px;
+  margin: 1% 0% 1.3%;
   line-height: 1;
 font-weight: bold;
 
@@ -41,23 +44,22 @@ span
   color: var(--chess-secondary);
   letter-spacing: 2px;
 }
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1024px){
  .containerr{
    width: 100%;
    height: auto;
  }
  .about{
-   width: 70%;
+   width: 80%;
    margin: 0 auto;
-   padding-top: 200px;
-   padding-bottom: 50px;
+   padding-top: 18%;
+   padding-bottom: 8%;
  }
  .title{
    padding-top: 2rem;
  }
  .description{
    width:50%;
-
    padding-top: 2rem;
 
 }
@@ -72,7 +74,7 @@ span
 .about{
   width: 90%;
   margin: 0 auto;
-  padding-top: 100px;
+  padding-top: 10%;
 
 }
 .pre-title{
@@ -80,12 +82,13 @@ span
 }
 .title{
   font-size: 2.5rem;
-  margin: 12px 0px 15px;
+  // margin: 12px 0px 15px;  
+  margin: 0.1% 0px 0.1%;
 }
 .description{
   font-size: 1.4rem;
   line-height: 2.4rem;
-  width: 60%;
+  width: 80%;
 }
 span{
   letter-spacing: 1px;

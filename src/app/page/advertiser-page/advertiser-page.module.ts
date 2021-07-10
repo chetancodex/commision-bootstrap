@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { AdvertiserPageComponent } from './advertiser-page.component';
 import { AboutHeroModule } from 'src/app/about/about-hero/about-hero.module';
 import { HeroWrapperModule } from 'src/app/our-vision-component/hero-wrapper/hero-wrapper.module';
-import { PublisherHandModule } from 'src/app/publisherComponent/publisher-hand/publisher-hand.module';
+import { PublisherHandModule } from 'src/app/publisher-component/publisher-hand/publisher-hand.module';
 import { PatnersModule } from 'src/app/our-vision-component/patners/patners.module';
 
 

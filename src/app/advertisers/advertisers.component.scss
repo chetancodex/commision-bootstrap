@@ -2,7 +2,8 @@
   background-image: url("../../assets/bg4.jpg");
   background-position: center;
   background-size: cover;
-  height: 1000px;
+  // height: 1000px;
+  height: 100vh;
   width: 100%;
   color: var(--header-primary);
   }
@@ -13,7 +14,8 @@
     flex-wrap: wrap;
     width: 60%;
     margin: 0 auto;
-    padding-top: 145px;
+    // padding-top: 145px;
+    padding: 10% 0;
 
   }
   h3{
@@ -35,6 +37,18 @@
     background:var(--chess-secondary);
     border-radius: 6px;
   }
+  @media screen and (max-width:1440px){
+    .main-container{
+      width: 100%;
+      height: auto;
+    }
+  }
+  @media screen and (max-width:2000px){
+    .main-container{
+      width: 100%;
+      height: auto;
+    }
+  }
   @media screen and (max-width:1024px){
 
     .main-container{
@@ -43,13 +57,13 @@
     }
     h3{
       text-align: left;
-      padding: 12rem 0 0 5rem;
+      padding: 10% 0 0 5%;
     }
     .containerr{
       width: 95%;
       margin: 0 auto;
-      padding-top: 100px;
-      padding-bottom: 50px;
+      padding-top: 10%;
+      padding-bottom: 5%;
       flex-wrap: wrap;
     }
     img{
@@ -57,7 +71,8 @@
 
     }
     .wrapper{
-      padding: 0.5rem 0.5rem;
+      // padding: 0.5rem 0.5rem;
+      padding: 0.1% 0.1%;
     }
 
 
@@ -68,7 +83,8 @@
     font-size: 2.4rem;
   }
   .containerr{
-    padding-top: 30px;
+    // padding-top: 30px;
+    padding-top: 3%;
   }
   }
 @media screen and (max-width:330px){

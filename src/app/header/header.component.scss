@@ -1,12 +1,15 @@
 
 
-
 .logo{
   width: 100%;
   position: fixed;
   left:19%;
   top: 2%;
 }
+.black{
+  color: var(--header-primary);
+}
+
 
 .left-col {
   font-size: 16px;
@@ -52,7 +55,8 @@ li{
 }
 .website-name{
   position: absolute;
-  bottom: 120px;
+  bottom: 100px;
+  
 }
 .row{
   // display: flex;
@@ -83,7 +87,8 @@ a{
     list-style: none;
     margin-right: 2rem;
     font-weight: bold;
-    margin: 138px 0px;
+    // margin: 138px 0px;
+    margin: 8% 0%;
 }
 
 }
@@ -215,7 +220,9 @@ label .hamburger-color{
   background: black;
 }
 .container{
-  padding-top: 100px;
+  // padding-top: 100px;
+  padding-top: 10%;
+  
   
 }
 .main-container{
@@ -333,7 +340,7 @@ label .hamburger-color{
   }
 
 }
-@media screen and (max-width:1400px){
+@media screen and (max-width:1440px){
   .right-col{
 
     // display: flex;
@@ -358,9 +365,29 @@ label .hamburger-color{
       top: 50%;}
       
 }
+@media screen and (max-width:1295px){
+  .right-col{
+    right: -35%;
+  }
+}
 @media screen and (max-width:1560px){
   .row > *{
     width: 80%;
 
   }
+}
+@media screen and (max-width:1440px){
+  .right-col{
+      top: 42%;
+      
+  }
+  .left-col{
+
+    top: 42%;
+      
+}
+.row{
+  bottom: 50px;
+}
+
 }

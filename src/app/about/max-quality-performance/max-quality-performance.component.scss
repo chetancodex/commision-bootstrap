@@ -1,5 +1,6 @@
 .container{
- padding: 80px 0 110px;
+//  padding: 80px 0 110px;
+padding: 5% 0%;
 }
 
 .heading{
@@ -10,12 +11,12 @@ line-height: 1.1;
 }
 .description{
   font-size: 20px;
-  margin: 25px 0 0;
+  margin: 2% 0 0;
   color: var(--about-black);
   display: inline-block;
   background:var(--about-bg-color);
 }
-@media screen and (max-width:1000px){
+@media screen and (max-width:1024px){
   .heading{
     font-size: 50px;
   }
@@ -23,7 +24,7 @@ line-height: 1.1;
     font-size: 16px;
   }
 }
-@media screen and (max-width:772px){
+@media screen and (max-width:768px){
   .heading{
     font-size: 36px;
   }
@@ -34,12 +35,23 @@ line-height: 1.1;
   }
   .container{
     width: 95%;
-    padding: 40px 0 50px;
+    padding: 4% 0 5%;
   }
 }
-@media screen and (max-width:428px){
+@media screen and (max-width:425px){
   .heading{
-    font-size:31px;
+    font-size:30px;
 
+  }
+}
+@media screen and (max-width:320px){
+  .heading{
+    font-size:25px;
+
+  }
+  .description{
+    font-size: 16px;
+    line-height: 1.4;
+    background:none;
   }
 }

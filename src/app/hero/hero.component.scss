@@ -1,10 +1,12 @@
 .containerr
 {
 // position: relative;
+padding-bottom: 1%;
 display: flex;
   .right-img{
     width: 60%;
-    margin-top: 250px;
+    // margin-top: 250px;
+    margin-top: 12%;
 justify-content: flex-end;
   }
 }
@@ -12,8 +14,8 @@ img{
   width: 100%;
   // position: absolute;
   //   right: 50px;
-
-margin-top: 11rem;
+margin-top: 11%;
+// margin-top: 11rem;
 // margin-top: 30rem;
 // margin-right: 5rem;
 
@@ -21,8 +23,10 @@ margin-top: 11rem;
 .about-left{
 
 
-margin-top: 30rem;
-margin-left: 25rem;
+// margin-top: 30rem;
+margin-top: 12%;
+// margin-left: 25rem;
+margin-left: 15%;
 
 
 
@@ -42,7 +46,8 @@ margin-left: 25rem;
   font-size: 67px;
   font-weight: bold;
 
-  margin: 8px 0 22px;
+  // margin: 8px 0 22px;
+  margin: 1% 0% 2%;
   span{
     color:var(--primary);
   }
@@ -57,16 +62,16 @@ margin-left: 25rem;
 
 
 @media only screen and (max-width: 1560px){
-  .about-left{
-    margin-left: 15rem;
+  // .about-left{
+  //   margin-left: 15rem;
 
 
-  }
+  // }
 }
 @media screen and (max-width:1200px){
-  .about-left{
-    margin-top: 20rem;
-  }
+  // .about-left{
+  //   margin-top: 20rem;
+  // }
   .right-img{
     width: 50%;
 
@@ -81,18 +86,18 @@ margin-left: 25rem;
     font-size: 1.8rem;
   }
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:768px){
 
 .about-left{
-  margin-left: 2rem;
-  margin-top: 12rem;
+  margin-left: 5%;
+  margin-top: 25%;
 }
 
 img{
   width: 100%;
 }
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:768px){
   .pre-title{
     font-size: 1.2rem;
   }
@@ -104,8 +109,9 @@ img{
     font-size: 1.3rem;
 
   }
-.container .right-img{
-  margin-top: 170px;
+.containerr .right-img{
+  // margin-top: 170px;
+  margin-top: 25%;
 
 }
 
@@ -120,9 +126,14 @@ img{
 .containerr .about-left{
   width: 100%;
 }
-img{
+// img{
+//   display: none;
+// }
+
+}
+
+@media screen and (max-width:500px){
+  img{
   display: none;
+ }
 }
-
-}
-
