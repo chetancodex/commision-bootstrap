@@ -3,15 +3,15 @@
         <div class="faq-hero-section-wrapper">
             <div class="container">
                 <div class="row">
-                    <span>FAQ</span>
-                    <h1>TO KNOW
+                    <span>{{data.pagename}}</span>
+                    <h1>{{data.tittle1}}
                         <br>
-                        BEFORE YOU GET
+                       {{data.tittle2}}
                     </h1>
                     <span class="green-tittle">
-                        ASSOCIATED
+                        {{data.greentittle1}}
                         <br>
-                        WITH US
+                        {{data.greentittle2}}
                     </span>
                 </div>
             </div>
@@ -20,14 +20,55 @@
     <div class="about-vcommission">
         <div class="container">
             <div class="description">
-                <h1>Here are some questions we often get asked. If you have a question of your own please email us.
+                <h1>
+                    {{data.description}}
                 </h1>
             </div>
             <div class="question">
-                <div class="question-1">
-                    <h3>What is vcommission</h3>
+                <div class="question-1 d-flex justify-content-between">
+                    <h3>{{data. question1tittle}}</h3>
+                    <img [src]="data.questionimg" alt="">
+                </div>
+                <div class="question-2 d-flex justify-content-between">
+                    <h3>{{data.question2tittle}}</h3>
+                    <img [src]="data.questionimg" alt="">
+                </div>
+                <div class="question-3 d-flex justify-content-between">
+                    <h3> {{data.question3tittle}}</h3>
+                    <img [src]="data.questionimg" alt="">
+                </div>
+                <div class="question-4 d-flex justify-content-between">
+                    <h3>{{data. question4tittle}}</h3>
+                    <img [src]="data.questionimg" alt="">
+                </div>
+                <div class="question-5 d-flex justify-content-between">
+                    <h3>{{data. question5tittle}}</h3>
+                    <img [src]="data.questionimg" alt="">
+                </div>
+                <div class="question-6 d-flex justify-content-between">
+                    <h3>{{data. question6tittle}}</h3>
+                    <img [src]="data.questionimg" alt="">
+                </div>
+                <div class="question-7 d-flex justify-content-between">
+                    <h3>{{data. question7tittle}}</h3>
+                    <img [src]="data.questionimg" alt="">
+                </div>
+                <div class="question-8 d-flex justify-content-between">
+                    <h3>{{data. question8tittle}}</h3>
+                    <img [src]="data.questionimg" alt="">
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="faq-img">
+        <img [src]="data.faqimg" alt="">
+    </div>
+    <div class="end-footer">
+        <div class="pagination">
+            <a href="">{{data.pagination}}</a>
+        </div>
+        <div class="copyscape">
+            <img src=" data.copyscapeimg" alt="">
         </div>
     </div>
 </app-header>

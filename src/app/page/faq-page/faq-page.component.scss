@@ -5,6 +5,7 @@
     width: 100%;
     height: 100vh;
 }
+
 .container{
     position: relative;
 }
@@ -65,20 +66,321 @@
     color: #535353;
     width: 84%;
     font-weight: bold;
-    margin-bottom: 40px;
+    margin-bottom: 3%;
+    margin-top: 3%;
 }
 .toggle img{
     width: 10px;
 }
 .question-1 h3{
     font-size: 25px;
-    padding:15px;
+    padding:1%;
     font-weight: lighter;
+    letter-spacing: 1px;
     line-height: 30px;
+    color: #444;
 }
-.answer p{
-    font-size: 18px;
+
+ .question .question-1 h3:hover{
+    cursor: pointer;
 }
-.answer p:hover{
+.question .question-2 h3{
+    font-size: 25px;
+    padding: 1%;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: #444;
+}
+.question .question-2 h3:hover{
     color:#a6ce3a;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.question .question-3 h3{
+    font-size: 25px;
+    padding: 1%;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: #444;
+}
+.question .question-3 h3:hover{
+    color:#a6ce3a;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.question .question-4 h3{
+    font-size: 25px;
+    padding: 1%;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: #444;
+}
+.question .question-4 h3:hover{
+    color:#a6ce3a;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.question .question-5 h3{
+    font-size: 25px;
+    padding: 1%;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: #444;
+}
+.question .question-5 h3:hover{
+    color:#a6ce3a;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.question .question-6 h3{
+    font-size: 25px;
+    padding: 1%;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: #444;
+}
+.question .question-6 h3:hover{
+    color:#a6ce3a;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.question .question-7 h3{
+    font-size: 25px;
+    padding: 1%;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: #444;
+}
+.question .question-7 h3:hover{
+    color:#a6ce3a;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.question .question-8 h3{
+    font-size: 25px;
+    padding: 1%;
+    line-height: 30px;
+    color: #444;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+.question .question-8 h3:hover{
+    color:#a6ce3a;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.question img{
+    width: 2%;
+    height: 2%;
+}
+.question{
+    padding-bottom: 5%;
+}
+@media screen and (max-width:991px){
+    .about-vcommission .container h1{
+        font-size: 45px;
+    }
+    .question h3{
+        font-size: 20px;
+    }
+    .question .question-2 h3{
+        font-size: 19px;
+    }
+    .question .question-3 h3{
+        font-size: 20px;
+    }
+    .question .question-4 h3{
+        font-size: 20px;
+    }
+    .question .question-5 h3{
+        font-size: 20px;
+    }
+    .question .question-6 h3{
+        font-size: 20px;
+    }
+    .question .question-7 h3{
+        font-size: 20px;
+    }
+    .question .question-8 h3{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:991px){
+    .about-vcommission .container h1{
+        font-size: 33px;
+    }
+}
+@media screen and (max-width:767px){
+    .about-vcommission .container h1{
+        font-size: 28px;
+    }
+    .question .question-1 h3{
+        font-size: 14px;
+    }
+    .question .question-2 h3{
+        font-size: 14px;
+    }
+    .question .question-3 h3{
+        font-size: 14px;
+    }
+    .question .question-4 h3{
+        font-size: 14px;
+    }
+    .question .question-5 h3{
+        font-size: 14px;
+    }
+    .question .question-6 h3{
+        font-size: 14px;
+    }
+    .question .question-7 h3{
+        font-size: 14px;
+    }
+    .question .question-8 h3{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:519px){
+    .about-vcommission .container h1{
+        font-size: 25px;
+    }
+    .question .question-1 h3{
+        font-size: 11px;
+    }
+    .question .question-2 h3{
+        font-size: 11px;
+    }
+    .question .question-3 h3{
+        font-size: 11px;
+    }
+    .question .question-4 h3{
+        font-size: 11px;
+    }
+    .question .question-5 h3{
+        font-size: 11px;
+    }
+    .question .question-6 h3{
+        font-size: 11px;
+    }
+    .question .question-7 h3{
+        font-size: 11px;
+    }
+    .question .question-8 h3{
+        font-size: 11px;
+    }
+}
+@media screen and (max-width:434px){
+    .about-vcommission .container h1{
+        font-size: 23px;
+    }
+    .question .question-1 h3{
+        font-size: 9px;
+    }
+    .question .question-2 h3{
+        font-size: 9px;
+    }
+    .question .question-3 h3{
+        font-size: 9px;
+    }
+    .question .question-4 h3{
+        font-size: 9px;
+    }
+    .question .question-5 h3{
+        font-size: 9px;
+    }
+    .question .question-6 h3{
+        font-size: 9px;
+    }
+    .question .question-7 h3{
+        font-size: 9px;
+    }
+    .question .question-8 h3{
+        font-size: 9px;
+    }
+}
+@media screen and (max-width:397px){
+    .about-vcommission .container h1{
+        font-size: 18px;
+    }
+    .question .question-1 h3{
+        font-size: 9px;
+    }
+    .question .question-2 h3{
+        font-size: 9px;
+    }
+    .question .question-3 h3{
+        font-size: 9px;
+    }
+    .question .question-4 h3{
+        font-size: 9px;
+    }
+    .question .question-5 h3{
+        font-size: 9px;
+    }
+    .question .question-6 h3{
+        font-size: 9px;
+    }
+    .question .question-7 h3{
+        font-size: 9px;
+    }
+    .question .question-8 h3{
+        font-size: 9px;
+    }
+}
+@media screen and (max-width:425px){
+    .question h3{
+        line-height: 2px;
+    }
+}
+
+.faq-img img{
+    width: 100%;
+    height: 100%;
+}
+.pagination a{
+    text-decoration: none;
+    font-size: 86px;
+    color: #a6ce3a;
+    font-weight: bold;
+}
+.pagination{
+    justify-content: center;
+}
+.copyscape{
+    display: flex;
+    justify-content: center;
+}
+.end-footer{
+    padding-top: 10%;
+    padding-bottom: 20%;
+}
+@media screen and (max-width:558px){
+    .pagination a{
+        font-size: 70px;
+    }
+}
+@media screen and (max-width:436px){
+    .pagination a{
+        font-size: 60px;
+    }
+}
+@media screen and (max-width:374px){
+    .pagination a{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width:311px){
+    .pagination a{
+        font-size: 45px;
+    }
+}
+@media screen and (max-width:480px){
+    .question img{
+        width: 1%;
+    }
 }
