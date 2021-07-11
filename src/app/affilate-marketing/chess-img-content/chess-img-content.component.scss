@@ -9,22 +9,27 @@ span{
 .w-100{
     background: var(--bg-affilateMarketing);
 }
+.info-content{
+    padding-left: 1.5%;
+}
 .title{
     font-size: 61px;
     font-weight: bold;
-    padding-left: 10px;
+    // padding-left: 10px;
+    // padding-left: 1.5%;
     line-height: 73px;
 }
 .description{
     font-size: 20px;
     line-height: 45px;
     width: 65%;
-    padding-left: 10px;
+    // padding-left: 10px;
 }
 .contect{
     font-size: 20px;
     width: 45%;
-    padding: 70px 0;
+    // padding: 70px 0;
+    padding: 7% 0%;
 }
 @media screen and (max-width:1600px){
  .container-fluid{
@@ -45,7 +50,7 @@ span{
     }
 }
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:768px){
     .title{
         font-size: 30px;
         line-height: 50px;
@@ -63,7 +68,19 @@ span{
     .contect{
         font-size: 16px;
         width: 100%;
-        padding: 30px 0 0;
+        // padding: 30px 0 0;
+        padding:5% 0 0 1%;
+
     }
 
+}
+@media screen and (max-width:320px){
+    .title{
+        font-size:25px;
+        line-height:1.5;
+    }
+    .description{
+        font-size:18px;
+        line-height:1.4;
+    }
 }

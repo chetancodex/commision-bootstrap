@@ -11,6 +11,7 @@ export const aboutContact = {
   aboutInfoSix: "14 Robinson Road, #08-01A, Far East ",
   aboutInfoSeven: "Finance Building, 048545, Singapore",
   btn: "Send",
+  copyscape:"assets/copyscape-banner-white-200x25-1.png",
 
 aboutform: [
   {
