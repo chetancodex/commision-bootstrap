@@ -1,5 +1,4 @@
 
-
 .logo{
   width: 100%;
   position: fixed;
@@ -9,7 +8,6 @@
 .black{
   color: var(--header-primary);
 }
-
 
 .left-col {
   font-size: 16px;
@@ -24,7 +22,6 @@
 -90deg
 );}
 .right-col{
-
   // display: flex;
     position: fixed;
     z-index: 99;
@@ -32,7 +29,6 @@
     right: -23%;
     color: var(--header-primary);
     top: 50%;
-    
     transform: translate(-50%, -50%) rotate(
 90deg
 );

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-above-and-beyond',
@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./above-and-beyond.component.scss']
 })
 export class AboveAndBeyondComponent implements OnInit {
-
+@Input()
+data:any;
   constructor() { }
 
   ngOnInit(): void {

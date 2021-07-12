@@ -1,7 +1,9 @@
 .btn{
     font-size: 25PX;
-    margin: 20px 30px 50px;
-    padding: 10px 40px;
+    // margin: 20px 30px 50px;
+    margin: 3% 5% 7%;
+    // padding: 10px 40px;
+    padding: 1% 5%;
     a{
         color: white;
         text-decoration: none;
@@ -54,8 +56,10 @@ img{
 .card-border{
     width: 350px;
     height: 280px;
-    margin: 10px;
-    padding: 10px;
+    // margin: 10px;
+    // padding: 10px;
+    padding: 1.8%;
+    margin: 1.8%;
     border: 1.5px solid #000;
 }
 .position{
@@ -92,6 +96,12 @@ img{
         
     }
 }
+@media screen and (max-width:1024px){
+    .button{
+        width: 60%;
+        margin: 0 auto;
+    }
+}
 @media screen and (max-width:600px){
 .img-box{
     display: none;
@@ -101,8 +111,11 @@ img{
 }
 .btn{
     font-size: 18PX;
-    margin: 10px 10px 30px;
-    padding: 10px 40px;
+    // margin: 10px 10px 30px;
+    // padding: 10px 40px;
+    padding: 2% 6%;
+    margin: 3% 6% 5%;
+    
     
 }
 .button{
@@ -110,5 +123,6 @@ img{
    margin: 0 auto;
 }
 }
+
     
     
