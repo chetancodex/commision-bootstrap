@@ -19,6 +19,5 @@ export const smallTreeImageData = {
   isDescriptionDesignChange:true,
   readMore:"+Read More",
   imgTwo:"assets/bg-chessImg.jpg"
-
 }
 
