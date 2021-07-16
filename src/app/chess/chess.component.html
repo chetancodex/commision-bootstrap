@@ -2,24 +2,24 @@
   <div class="info ">
 
     <div class="about">
-      <div class="pre-title">OUR KEY VERTICALS
+      <div class="pre-title">{{data.pretitle}}
       </div>
       <div class="title">
-        We Generate <span> Millions </span> <br>
-        In These Verticals
+        {{data.title1}}<span>{{data.title2}}</span> <br>
+        {{data.title3}}
       </div>
-      <div class="description">We are always working towards offering <br>
-        meaningful marketing through:</div>
+      <div class="description">{{data.description1}}<br>
+        {{data.description2}}</div>
         <ul class="grey">
-          <li > E-Commerce</li>
-          <li > Travel</li>
+          <li >{{data.link1}}</li>
+          <li >{{data.link2}}</li>
           </ul>
           <ul class="black">
-          <li > Finance & Insurance </li>
-          <li >iGaming</li>
+          <li >{{data.link3}}</li>
+          <li >{{data.link4}}</li>
         </ul>
       </div>
-      <div class="img"><img src="../../../assets/chess.png" alt=""></div>
+      <div class="img"><img [src]=data.img alt=""></div>
     </div>
 </div>
 

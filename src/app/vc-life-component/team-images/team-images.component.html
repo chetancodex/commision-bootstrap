@@ -13,7 +13,7 @@
     </ul>
     <div class="tab-content" id="myTabContent">
         <div class="tab-pane fade "  *ngFor="let item of data.linkItem;index as i" [id]="item.idName" role="tabpanel" aria-labelledby="home-tab" [ngClass]='{"show active":i == 0}'>
-            {{i}}
+            
             <div class="grid">
                 <img [src]= item.ImageOne alt="">
                 <img [src]=item.ImageTwo alt="">

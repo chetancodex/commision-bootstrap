@@ -59,7 +59,8 @@
 
 }
 .text100k{
-  color: #eaff00;
+  // color: #eaff00;
+  color: var(--color-100k);
   font-size: 68px;
   font-weight: bold;
 }
@@ -83,7 +84,9 @@
   animation: mover 1s infinite alternate;
 }
 .publisherWhite{
-  color: white;
+  // color: white;
+  color: var(--chess-secondary);
+
 }
 .color-primary{
   color: var(--primary);
@@ -92,7 +95,8 @@
   color: var(--primary);
 }
 .colorBlack{
-  color: black;
+  // color: black;
+  color: var(--black);
   font-weight: 400;
 }
 .colorAboutBlack{
@@ -100,7 +104,8 @@
   font-weight: bold;
 }
 .colorGreen{
-  color: #83b94d;
+  // color: #83b94d;
+  color: var(--color-green);
 }
 @keyframes mover {
   0% {

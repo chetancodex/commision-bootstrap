@@ -33,9 +33,18 @@
     <div class="read-more"><a href="">{{data.readMore}}</a></div>
   </div>
 </div>
-<div class="about-banner" [ngClass]="{'width-full': data.isNoSpace}">
+<div class="about-banner" [ngClass]="{'width-full': data.isNoSpace}" 
+  >
+
   <img [src]=data.imgTwo alt="">
 </div>
+<!-- <div class="bg-image"
+[ngStyle]="{'backgroundImage':'url(' +  data.imgTwo  + ')'}" >
+  
+</div> -->
+
+
 <div>
 </div>
 
+<!-- [ngStyle]="{'backgroundImage':'url(' +  data.imgTwo + ')'}"  -->

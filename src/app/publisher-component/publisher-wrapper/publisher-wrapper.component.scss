@@ -1,5 +1,7 @@
+
 .container{
-    margin: 100px auto;
+    // margin: 100px auto;
+    margin: 5.5% auto;
     display: flex;
     justify-content: space-between;
     
@@ -11,33 +13,38 @@
 }
 .title{
     font-size: 35px;
-    margin: 0 0 10px;
+    // margin: 0 0 10px;
+    margin: 0 0 1.5%;
     font-weight: bold;
 }
 .description{
     font-size: 20px;
     color: rgb(83, 83, 83);
-    margin: 20px 0px 0px;
-    padding-right: 120px;
+    // margin: 20px 0px 0px;
+    margin: 3.5% 0 0;
+    // padding-right: 120px;
+    padding-right: 15%;
+    
     line-height: 35px;
 }
 
-@media screen and (max-width:1000px){
+@media screen and (max-width:1024px){
     .container{
         flex-direction: column;
     }
     .info{
         width: 90%;
         margin: 0 auto 25px;
+        margin: 0 auto 3%;
     }
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:425px){
     .container{
         margin: 50px auto;
     }
     .info{
         width: 95%;
-        margin: 0 auto 20px;
+        // margin: 0 auto 20px;
         
     }
     .title{
@@ -47,5 +54,6 @@
     .description{
         font-size: 16px;
         padding-right: 0px;
+        line-height:27px;
     }
 }
