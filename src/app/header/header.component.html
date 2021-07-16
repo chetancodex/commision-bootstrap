@@ -12,11 +12,11 @@
     <button class="btn btn-primary " [routerLink]="['/faq-page']">faq-page</button>
     <button class="btn btn-primary" [routerLink]="['/partners']">partners</button>
     <button class="btn btn-primary" [routerLink]="['/payment']">payment</button>
+    <button class="btn btn-primary" [routerLink]="['/performance-marketing']">performancemarketing</button>
 
-    
 
   </div>
-<!-- <button (click)='clickfunction()'></button>
+  <!-- <button (click)='clickfunction()'></button>
 
   <div class="box" >
     <label for="check" class="hamburger"
@@ -52,16 +52,16 @@
     </div>
   </div> -->
 
-<ng-content></ng-content>
+  <ng-content></ng-content>
   <div class="logo" [ngClass]="{'logo-absolute':isPositionAbsolute}">
     <a href="" [routerLink]="['/']"><img *ngIf='!isColorChanged' [src]="data.img1" alt=""></a>
-    <a href="" [routerLink]="['/']"><img *ngIf='isColorChanged' [src]="data.img2" alt="" ></a>
+    <a href="" [routerLink]="['/']"><img *ngIf='isColorChanged' [src]="data.img2" alt=""></a>
   </div>
   <div class="col" [ngClass]="{'color-white':isColorChanged, 'display-none': isDisplayNone, 'height-full':
    isHeightFullVH}">
-   <!-- <button (click)='clickfunction()'>abhah</button> -->
+    <!-- <button (click)='clickfunction()'>abhah</button> -->
 
-   <!-- <div class="box" >
+    <!-- <div class="box" >
      <label for="check" class="hamburger"
       > 
        <input type="checkbox" id="check"/>
@@ -113,7 +113,7 @@
           <strong class="black" [ngClass]="{'color-white':isColorChanged}">{{data.m}}</strong>
           <a href="">{{data.hello}}</a>
         </div>
-        </div>
       </div>
     </div>
   </div>
+</div>

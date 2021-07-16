@@ -17,6 +17,7 @@ import { TestimonialsPageModule } from './page/testimonials-page/testimonials-pa
 import { LifeAtVcPageComponent } from './page/life-at-vc-page/life-at-vc-page.component';
 import { OffersPageModule } from './page/offers-page/offers-page.module';
 import { FAQPageModule } from './page/faq-page/faq-page.module';
+import { PerformanceMarketingModule } from './performance-marketing/performance-marketing.module';
 
 
 
@@ -40,8 +41,8 @@ import { FAQPageModule } from './page/faq-page/faq-page.module';
     FAQPageModule,
     LifeAtVcPageModule,
     PartnersPageModule,
-    PaymentPageModule
-
+    PaymentPageModule,
+    PerformanceMarketingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
