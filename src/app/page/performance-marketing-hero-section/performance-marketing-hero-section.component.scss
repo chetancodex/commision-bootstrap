@@ -1,0 +1,51 @@
+.performance-marketing-wrapper {
+  background-image: url(https://vcommission.com/wp-content/uploads/2020/12/performance-marketing-banner01.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+.performance-marketing-wrapper .container h3 {
+  color: rgba(156, 196, 48);
+  font-size: 17px;
+  font-weight: bold;
+}
+.performance-marketing-wrapper .container h1 {
+  color: white;
+  font-size: 65px;
+  font-weight: bold;
+}
+.row {
+  position: relative;
+}
+.headings {
+  position: absolute;
+  top: 220px;
+}
+@media screen and (max-width: 767px) {
+  .performance-marketing-wrapper .container h1 {
+    font-size: 61px;
+  }
+}
+@media screen and (max-width: 534px) {
+  .performance-marketing-wrapper .container h1 {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 440px) {
+  .performance-marketing-wrapper .container h1 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 355px) {
+  .performance-marketing-wrapper {
+    background-image: url(https://vcommission.com/wp-content/uploads/2020/12/performance-marketing-banner01.jpg);
+    background-size: cover;
+    height: 74vh;
+  }
+  .headings {
+    position: absolute;
+    top: 140px;
+  }
+  .performance-marketing-wrapper .container h1 {
+    font-size: 30px;
+  }
+}

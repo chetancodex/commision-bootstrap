@@ -1,0 +1,44 @@
+.pagination a {
+  text-decoration: none;
+  font-size: 86px;
+  color: #a6ce3a;
+  font-weight: bold;
+  margin-top: 5%;
+}
+.pagination {
+  justify-content: center;
+}
+.copyscape {
+  display: flex;
+  justify-content: center;
+}
+.end-footer {
+  padding-top: 10%;
+  height: 100vh;
+  padding-bottom: 20%;
+}
+@media screen and (max-width: 558px) {
+  .pagination a {
+    font-size: 70px;
+  }
+}
+@media screen and (max-width: 436px) {
+  .pagination a {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 374px) {
+  .pagination a {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 311px) {
+  .pagination a {
+    font-size: 45px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .question img {
+    width: 1%;
+  }
+}

@@ -1,0 +1,45 @@
+.main {
+  background-color: #ffd54f;
+  height: 100vh;
+}
+.img-box img {
+  width: 100%;
+}
+.text-box {
+  margin-top: 15%;
+}
+.text-box h3 {
+  font-size: 17px;
+  color: #000;
+}
+.text-box h1 {
+  font-size: 65px;
+  color: #000;
+  font-weight: bold;
+}
+.text-box h2 {
+  font-size: 24px;
+  color: #000;
+}
+.text-box p {
+  font-size: 17px;
+  color: #3e3e3e;
+  letter-spacing: 1px;
+  width: 89%;
+}
+#green-text {
+  color: #607a09;
+}
+.img-box {
+  width: 183%;
+  -webkit-animation: mover 1s infinite alternate;
+  animation: mover 1s infinite alternate;
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
