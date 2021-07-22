@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { goaldata } from './goal-section';
 
 @Component({
   selector: 'app-goal-section',
@@ -6,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./goal-section.component.scss']
 })
 export class GoalSectionComponent implements OnInit {
-
+  data=goaldata
   constructor() { }
 
   ngOnInit(): void {

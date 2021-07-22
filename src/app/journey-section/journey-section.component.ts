@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { journeydata } from './journey-section';
 
 @Component({
   selector: 'app-journey-section',
@@ -6,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./journey-section.component.scss']
 })
 export class JourneySectionComponent implements OnInit {
-
+  data=journeydata
   constructor() { }
 
   ngOnInit(): void {
