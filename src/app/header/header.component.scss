@@ -362,6 +362,14 @@ label .hamburger-color{
       top: 50%;}
       
 }
+@media screen and (max-width:1350px){
+  .left-col{
+    font-size:14px;
+  }
+  .right-col li a {
+    font-size: 14px;
+  }
+}
 @media screen and (max-width:1295px){
   .right-col{
     right: -35%;

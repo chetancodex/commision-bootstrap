@@ -58,7 +58,7 @@
 // }
 @media screen and (max-width:2540px){
   .main-container{
-    height: auto;
+    height: 100vh;
     width: 100%;
   }
 
@@ -115,9 +115,18 @@
  
 }
 
-.main-container{
-  width: 100%;
-  height: 100vh; 
+
+
+
+// .main-container{
+//   width: 100%;
+//   height: 100vh; 
+// }
+@media screen and (max-width:1104px){
+  .main-container{
+    width: 100%;
+    height: auto;
+  }
 }
 @media screen and (max-width:1024px){
   .main-container{
