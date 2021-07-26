@@ -17,8 +17,29 @@ import { TestimonialsPageModule } from './page/testimonials-page/testimonials-pa
 import { LifeAtVcPageComponent } from './page/life-at-vc-page/life-at-vc-page.component';
 import { OffersPageModule } from './page/offers-page/offers-page.module';
 import { FAQPageModule } from './page/faq-page/faq-page.module';
-
-
+import { PerformanceMarketingModule } from './performance-marketing/performance-marketing.module';
+import { FaqHeroSectionModule } from './faq-hero-section/faq-hero-section.module';
+import { AboutVcommissionSectionModule } from './about-vcommission-section/about-vcommission-section.module';
+import { FaqImgSectionModule } from './faq-img-section/faq-img-section.module';
+import { PaginationSectionModule } from './pagination-section/pagination-section.module';
+import { OffersHeroSectionModule } from './offers-hero-section/offers-hero-section.module';
+import { OffersCardSectionModule } from './offers-card-section/offers-card-section.module';
+import { OffersCenterTextModule } from './offers-center-text/offers-center-text.module';
+import { PerformanceMarketingHeroSectionModule } from './page/performance-marketing-hero-section/performance-marketing-hero-section.module';
+import { BelieveSectionModule } from './believe-section/believe-section.module';
+import { PerformanceMarketingImgModule } from './performance-marketing-img/performance-marketing-img.module';
+import { ResultSectionModule } from './result-section/result-section.module';
+import { ResultImgModule } from './result-img/result-img.module';
+import { GrowthSectionModule } from './growth-section/growth-section.module';
+import { EcommercePageModule } from './page/ecommerce-page/ecommerce-page.module';
+import { EcommerceHeroSectionModule } from './ecommerce-hero-section/ecommerce-hero-section.module';
+import { LeadGenrationPageModule } from './page/lead-genration-page/lead-genration-page.module';
+import { LeadGenrationHeroSectionModule } from './lead-genration-hero-section/lead-genration-hero-section.module';
+import { GoalSectionModule } from './goal-section/goal-section.module';
+import { GoalImgModule } from './goal-img/goal-img.module';
+import { JourneySectionModule } from './journey-section/journey-section.module';
+import { JourneyImgModule } from './journey-img/journey-img.module';
+import { QualifiedSectionModule } from './qualified-section/qualified-section.module';
 
 @NgModule({
   declarations: [
@@ -40,8 +61,30 @@ import { FAQPageModule } from './page/faq-page/faq-page.module';
     FAQPageModule,
     LifeAtVcPageModule,
     PartnersPageModule,
-    PaymentPageModule
-
+    PaymentPageModule,
+    PerformanceMarketingModule,
+    FaqHeroSectionModule,
+    AboutVcommissionSectionModule,
+    FaqImgSectionModule,
+    PaginationSectionModule,
+    OffersHeroSectionModule,
+    OffersCardSectionModule,
+    OffersCenterTextModule,
+    PerformanceMarketingHeroSectionModule,
+    BelieveSectionModule,
+    PerformanceMarketingImgModule,
+    ResultSectionModule,
+    ResultImgModule,
+    GrowthSectionModule,
+    EcommercePageModule,
+    EcommerceHeroSectionModule,
+    LeadGenrationPageModule,
+    LeadGenrationHeroSectionModule,
+    GoalSectionModule,
+    GoalImgModule,
+    JourneySectionModule,
+    JourneyImgModule,
+    QualifiedSectionModule
   ],
   providers: [],
   bootstrap: [AppComponent]

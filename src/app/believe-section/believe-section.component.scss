@@ -1,0 +1,81 @@
+.we-believe-section .container .row h1 {
+  font-size: 64px;
+  color: #535353;
+  margin-bottom: 24px;
+  font-weight: bold;
+  width: 80%;
+  line-height: 1.1;
+  letter-spacing: 2px;
+}
+.we-believe-section .container .row h3 {
+  font-size: 39px;
+  color: #535353;
+}
+.we-believe-section .container .row span {
+  font-size: 39px;
+  color: #a3cc31;
+}
+.we-believe-section .container .row p {
+  font-size: 20px;
+  color: #535353;
+  width: 83%;
+}
+.we-believe-section .container .row {
+  margin-top: 7%;
+  margin-bottom: 5%;
+}
+@media screen and (max-width: 1199px) {
+  .we-believe-section .container .row h1 {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .we-believe-section .container .row h1 {
+    width: 96%;
+    font-size: 47px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .we-believe-section .container .row h1 {
+    width: 96%;
+    font-size: 36px;
+  }
+  .we-believe-section .container .row span {
+    font-size: 32px;
+  }
+  .we-believe-section .container .row h3 {
+    font-size: 32px;
+  }
+  .we-believe-section .container .row p {
+    font-size: 17px;
+    width: 98%;
+  }
+  .we-believe-section .container {
+    padding-left: 7%;
+  }
+}
+@media screen and (max-width: 484px) {
+  .we-believe-section .container .row span {
+    font-size: 27px;
+  }
+  .we-believe-section .container .row h3 {
+    font-size: 27px;
+  }
+  .we-believe-section .container .row h1 {
+    font-size: 33px;
+  }
+}
+@media screen and (max-width: 413px) {
+  .we-believe-section .container .row h1 {
+    font-size: 24px;
+  }
+  .we-believe-section .container .row span {
+    font-size: 23px;
+  }
+  .we-believe-section .container .row h3 {
+    font-size: 23px;
+  }
+  .we-believe-section .container .row p {
+    font-size: 15px;
+  }
+}

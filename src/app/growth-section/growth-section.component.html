@@ -1,0 +1,20 @@
+<div class="growth-main">
+    <div class="container">
+        <div class="row">
+            <div class="growth">
+                <div class="growth-heading">
+                    <h1>{{data.heading1}}</h1>
+                </div>
+                <div class="about-services d-flex">
+                    <div *ngFor="let service of data.services">
+                        <h2>{{service.tittle1}}</h2>
+                        <p>{{service.description}}</p>
+                    </div>
+                </div>
+                <div class="paragraph">
+                    <p>{{data.paragraph}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

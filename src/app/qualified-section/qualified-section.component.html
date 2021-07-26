@@ -1,0 +1,26 @@
+<div class="qualified">
+    <div class="container">
+        <div class="row">
+            <div class="wrapper d-flex">
+
+                <div class="col-md-7 ">
+                    <div class="football-img">
+                        <img [src]="data.footballimg" alt="">
+                    </div>
+                    <div class="qualified-img">
+                        <img [src]="data.playerimg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-5" id="texts">
+                    <div *ngFor="let text of data.texts" class="qualified-text">
+                        <h1>{{text.heading}}</h1>
+                        <p>{{text.paragraph}}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="end-text">
+                <p>{{data.endtext}}</p>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,53 @@
+#texts h1 {
+  color: var(--faq-aboutvcommission);
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 1.1;
+  letter-spacing: 1px;
+}
+#texts p {
+  font-size: 22px;
+  color: var(--faq-aboutvcommission);
+  letter-spacing: 1px;
+  margin-bottom: 7%;
+  width: 110%;
+}
+.qualified-img img {
+  margin-top: 10%;
+  position: absolute;
+  right: 20px;
+  z-index: -1;
+}
+.football-img {
+  animation: mover 1s infinite alternate;
+  position: relative;
+  @keyframes mover {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+}
+.football-img img {
+  position: absolute;
+  top: 18px;
+  z-index: 1;
+  right: 611px;
+}
+.end-text p {
+  font-size: 22px;
+  color: var(--faq-aboutvcommission);
+  text-align: center;
+  margin-top: 3%;
+}
+.qualified {
+  padding: 8.2% 0 2%;
+}
+.qualified-img {
+  position: relative;
+}
+#texts {
+  margin-left: 2.8%;
+}

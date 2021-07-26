@@ -1,0 +1,36 @@
+<div class="main_offer_row">
+    <div class="col-md-4" *ngFor="let item of Data.offerDataLoop">
+        <div class="offer_col">
+            <h2>{{item.CardHeading}}</h2>
+            <div class="offer_img">
+                <img [src]="item.CardImage">
+            </div>
+            <div class="offer_details">
+                <ul>
+                    <li>
+                        <p>{{item.CardParagraph}}</p>
+                        <p>
+                            <strong>{{item.CardStrong}}</strong>
+                        </p>
+                    </li>
+                    <li>
+                        <p>{{item.CardParagraph2}}</p>
+                        <p>
+                            <strong>{{item.CardStrong2}}</strong>
+                        </p>
+                    </li>
+                    <li>
+                        <p>{{item.CardParagraph3}}</p>
+                        <p>
+                            <strong>{{item.CardStrong3}}</strong>
+                        </p>
+                    </li>
+                </ul>
+                <div class="joinbutton">
+
+                    <a href="" target="_blank" class="btn  join">{{item.CardButton}}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

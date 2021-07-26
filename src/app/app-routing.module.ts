@@ -12,6 +12,10 @@ import { PaymentPageComponent } from './page/payment-page/payment-page.component
 import { PublisherPageComponent } from './page/publisher-page/publisher-page.component';
 import { TestimonialsPageComponent } from './page/testimonials-page/testimonials-page.component';
 import { FAQPageComponent } from './page/faq-page/faq-page.component';
+import { PerformanceMarketingComponent } from './performance-marketing/performance-marketing.component';
+import { EcommercePageModule } from './page/ecommerce-page/ecommerce-page.module';
+import { EcommercePageComponent } from './page/ecommerce-page/ecommerce-page.component';
+import { LeadGenrationPageComponent } from './page/lead-genration-page/lead-genration-page.component';
 
 
 const routes: Routes = [
@@ -63,6 +67,18 @@ const routes: Routes = [
   {
     path:'payment',
     component:PaymentPageComponent
+  },
+  {
+    path:'performance-marketing',
+    component:PerformanceMarketingComponent
+  },
+  {
+    path:'ecommerce-page',
+    component:EcommercePageComponent
+  },
+  {
+    path:'lead-genration-page',
+    component:LeadGenrationPageComponent
   },
   {
     path:'**',

@@ -1,0 +1,47 @@
+.growth-heading h1 {
+  font-size: 71px;
+  font-weight: bold;
+  color: #535353;
+}
+.about-services div h2 {
+  font-size: 27px;
+  color: var(--faq-puestion-hover);
+  font-weight: bold;
+}
+.about-services div p {
+  font-size: 18px;
+  color: #686868;
+}
+.about-services div {
+  margin-right: 10%;
+  margin-top: 2%;
+}
+.growth {
+  margin-left: 5%;
+  margin-top: 6%;
+  width: 95%;
+  margin-bottom: 5%;
+}
+.growth-main {
+  background-color: #f7f7f7;
+}
+.paragraph {
+  color: var(--faq-aboutvcommission);
+  font-size: 20px;
+  line-height: 33px;
+  margin-top: 3%;
+}
+.about-services {
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 499px) {
+  .growth-heading h1 {
+    font-size: 50px;
+  }
+  .about-services div h2 {
+    font-size: 22px;
+  }
+  .paragraph {
+    font-size: 15px;
+  }
+}
