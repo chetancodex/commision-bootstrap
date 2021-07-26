@@ -5,10 +5,10 @@
 
                 <div class="col-md-7 ">
                     <div class="football-img">
-                        <img src="assets/ball.png" alt="">
+                        <img [src]="data.footballimg" alt="">
                     </div>
                     <div class="qualified-img">
-                        <img src="assets/player2.png" alt="">
+                        <img [src]="data.playerimg" alt="">
                     </div>
                 </div>
                 <div class="col-md-5" id="texts">
@@ -19,7 +19,7 @@
                 </div>
             </div>
             <div class="end-text">
-                <p>With vCommission's wide affiliate network, get guaranteed & verified leads for potential clients.</p>
+                <p>{{data.endtext}}</p>
             </div>
         </div>
     </div>

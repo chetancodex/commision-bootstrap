@@ -1,4 +1,8 @@
 export const qualifieddata={
+    endtext:"With vCommission's wide affiliate network, get guaranteed & verified leads for potential clients.",
+    playerimg:"assets/player2.png",
+    footballimg:"assets/ball.png",
+
     texts:[
         {
             heading:"Information Qualified Lead:",

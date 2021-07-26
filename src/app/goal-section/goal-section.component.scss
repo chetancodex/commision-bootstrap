@@ -7,13 +7,94 @@
   color: var(--faq-aboutvcommission);
   font-weight: bold;
 }
+.row {
+  margin-right: -15px;
+  width: 100%;
+  margin-left: -15px;
+}
 .headings h3 {
   color: #000;
   font-size: 24px;
+  margin-bottom: 20px;
 }
 .headings p {
   color: var(--faq-aboutvcommission);
   font-size: 20px;
   width: 84%;
   line-height: 1.42857143;
+}
+@media screen and (max-width: 1220px) {
+  .headings {
+    margin-left: 4.9%;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .headings p {
+    width: 94%;
+  }
+}
+@media screen and (max-width: 1190px) {
+  .headings p {
+    width: 93%;
+  }
+}
+@media screen and (max-width: 1146px) {
+  .headings p {
+    width: 89%;
+  }
+}
+@media screen and (max-width: 1124px) {
+  .headings p {
+    width: 88%;
+  }
+}
+@media screen and (max-width: 1112px) {
+  .headings p {
+    width: 87%;
+  }
+}
+@media screen and (max-width: 1055px) {
+  .headings p {
+    width: 82%;
+  }
+}
+@media screen and (max-width: 1036px) {
+  .headings p {
+    width: 81%;
+  }
+}
+@media screen and (max-width: 1007px) {
+  .headings p {
+    width: 78%;
+  }
+}
+@media screen and (max-width: 999px) {
+  .headings p {
+    width: fit-content;
+  }
+  .headings h1 {
+    font-size: 61px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .headings h1 {
+    font-size: 44px;
+  }
+  .headings p {
+    font-size: 18px;
+  }
+  .headings {
+    margin-left: 0%;
+  }
+}
+@media screen and (max-width: 639px) {
+  .headings h1 {
+    font-size: 33px;
+  }
+}
+@media screen and (max-width: 590px) {
+  .headings {
+    margin-left: 5.9%;
+    width: 90%;
+  }
 }

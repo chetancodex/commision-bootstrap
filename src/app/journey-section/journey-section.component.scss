@@ -35,3 +35,212 @@
 .container {
   padding: 3.7% 0 4%;
 }
+.row {
+  width: 100%;
+}
+@media screen and (max-width: 1199px) {
+  #text {
+    margin-top: 4%;
+    width: 47%;
+  }
+  #text h1 {
+    font-size: 52px;
+    line-height: 56px;
+  }
+  #text h2 {
+    letter-spacing: 1px;
+  }
+  #text p {
+    width: 96%;
+  }
+}
+@media screen and (max-width: 1161px) {
+  #text p {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 1127px) {
+  #text p {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 1069px) {
+  #text p {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 991px) {
+  #text p {
+    width: 102%;
+  }
+  .journey-img img {
+    max-width: 114%;
+  }
+  .container {
+    padding: 6.2% 0px 3.1%;
+  }
+  .row {
+    position: relative;
+  }
+  #text {
+    position: absolute;
+    margin-top: 1%;
+    left: 407px;
+  }
+}
+@media screen and (max-width: 917px) {
+  #text p {
+    width: 98%;
+  }
+}
+@media screen and (max-width: 900px) {
+  #text h1 {
+    font-size: 48px;
+  }
+}
+@media screen and (max-width: 860px) {
+  #text p {
+    width: 91%;
+  }
+}
+@media screen and (max-width: 843px) {
+  #text p {
+    width: 88%;
+  }
+}
+@media screen and (max-width: 841px) {
+  #text p {
+    width: 87%;
+  }
+}
+@media screen and (max-width: 806px) {
+  #text {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 781px) {
+  #text p {
+    width: 81%;
+  }
+}
+@media screen and (max-width: 771px) {
+  #text p {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .journey-img img {
+    max-width: none;
+    margin-left: 0%;
+  }
+  .journey {
+    padding: 7% 0 1.2%;
+  }
+  #text h2 {
+    font-size: 19px;
+    margin: 0px 0px 3%;
+  }
+  #text p {
+    font-size: 17px;
+    width: 120%;
+    line-height: 35px;
+  }
+  #text h1 {
+    margin: 4% 0px 2%;
+  }
+  #text {
+    position: static;
+    width: 100%;
+  }
+  .journey {
+    padding: 0%;
+  }
+}
+@media screen and (max-width: 745px) {
+  #text p {
+    width: 112%;
+    word-spacing: 2px;
+  }
+}
+@media screen and (max-width: 683px) {
+  #text p {
+    width: 102%;
+  }
+}
+@media screen and (max-width: 676px) {
+  #text p {
+    width: 101%;
+  }
+}
+@media screen and (max-width: 658px) {
+  #text p {
+    width: 98%;
+  }
+}
+@media screen and (max-width: 648px) {
+  #text p {
+    width: 97%;
+  }
+}
+@media screen and (max-width: 639px) {
+  #text h1 {
+    font-size: 42px;
+  }
+}
+@media screen and (max-width: 630px) {
+  #text p {
+    width: 94%;
+  }
+}
+@media screen and (max-width: 629px) {
+  .journey-img img {
+    max-width: 229%;
+  }
+}
+@media screen and (max-width: 625px) {
+  #text p {
+    width: 93%;
+  }
+}
+@media screen and (max-width: 606px) {
+  #text p {
+    width: 91%;
+  }
+}
+@media screen and (max-width: 600px) {
+  #text {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 585px) {
+  #text p {
+    width: 87%;
+  }
+}
+@media screen and (max-width: 577px) {
+  #text p {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 575px) {
+  #text p {
+    width: 80%;
+  }
+}
+@media (min-width: 576px) {
+  .container-sm,
+  .container {
+    // max-width: 540px;
+    margin-left: 5%;
+  }
+}
+@media screen and (max-width: 496px) {
+  #text p {
+    width: 79%;
+  }
+}
+@media screen and (max-width: 377px) {
+  #text p {
+    width: 77%;
+  }
+}
